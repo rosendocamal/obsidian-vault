@@ -2,6 +2,7 @@
 date: 2026-03-20
 author: Rosendo Camal
 ---
+# ¿Cuáles son los fundamentos? Una nota rápida de la búsqueda de los fundamentos
 
 Dado el panorama actual de la obsolescencia de habilidades técnicas, la incertidumbre en la perspectiva laboral y en la creciente difuminación de la identidad e inteligencia humana hay un énfasis en retomar los fundamentos. Sin embargo, se incita a estudiar los fundamentos de las disciplinas y de los campos en los que una persona o la sociedad escoge entre las múltiples opciones del saber sin responder a la incógnita principal: ¿Qué son los fundamentos?
 

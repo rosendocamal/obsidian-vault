@@ -2,6 +2,7 @@
 date: 2026-03-27
 author: Rosendo Camal
 ---
+# ¡Extra, extra! La prensa en inacción
 
 La localidad de Playa del Carmen no está exenta de la corrupción de los políticos. La gente de la ciudad la bautizó con cariño: "Playa del Crimen". Como si el delito fuese tu cónyuge, tu novia o alguien que aprecias. Esta ciudad es zona de invasión, traición y cómo no, de atentados contra la lengua de los conquistadores. 
 
