@@ -51,3 +51,19 @@
 - Claims cited with source name and year
 - Contradictions and open questions flagged with callout blocks
 - Total wiki pages: 4 entities + 8 concepts + 5 sources = 17 pages
+
+## [2026-07-16] ingest | Ingest de raw/courses/ (53 archivos, 10 materias)
+
+- Read all 53 source files across 10 subject directories end-to-end
+- Created 10 entity pages in `wiki/entities/`:
+  - george-boole, claude-shannon, gottfried-leibniz, leonhard-euler, john-venn, andrew-booth, linus-torvalds, grace-hopper, dennis-ritchie, miguel-quintana-pali
+- Created 20 concept pages in `wiki/concepts/`:
+  - algebra-booleana, teoria-conjuntos-discretas, teoria-grafos, sistema-binario, mapas-karnaugh, algoritmo-booth, simbologia-matematica, logica-computacional, analisis-foda, contabilidad-basica, algebra-lineal-programacion, vectores-geometria-analitica, calculo-integral, calculo-diferencial, fundamentos-programacion, linux, hardware-computacion, cultura-empresarial, investigacion-operaciones, programacion-orientada-objetos, linea-tiempo-lenguajes-programacion
+- Created 10 source pages in `wiki/sources/`:
+  - fuente-curso-algebra-lineal, fuente-curso-calculo, fuente-curso-calculo-vectorial, fuente-curso-contabilidad-financiera, fuente-curso-cultura-empresarial, fuente-curso-fundamentos-programacion, fuente-curso-intro-ing-sistemas, fuente-curso-investigacion-operaciones, fuente-curso-matematicas-discretas, fuente-curso-poo
+- Updated `wiki/index.md` with new entities, concepts, sources; course table now links to source pages
+- Cross-references added: every new page links to ≥2 related wiki pages via [[wikilinks]]
+- Concepts from courses link to entities (historical figures) and to existing wiki pages (e.g. teoria-conjuntos-discretas ↔ teoria-conjuntos-teologia)
+- Skip: ejercicio puro files (actividad_02–_13, tareas sin contenido conceptual nuevo) — cubiertos por concept + source page
+- Total raw sources: 53 courses + 7 docs + 6 journal + 5 texts = 71
+- Total wiki pages: 14 entities + 28 concepts + 15 sources + 1 log = 58 páginas wiki
