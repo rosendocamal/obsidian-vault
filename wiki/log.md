@@ -66,4 +66,11 @@
 - Concepts from courses link to entities (historical figures) and to existing wiki pages (e.g. teoria-conjuntos-discretas ↔ teoria-conjuntos-teologia)
 - Skip: ejercicio puro files (actividad_02–_13, tareas sin contenido conceptual nuevo) — cubiertos por concept + source page
 - Total raw sources: 53 courses + 7 docs + 6 journal + 5 texts = 71
-- Total wiki pages: 14 entities + 28 concepts + 15 sources + 1 log = 58 páginas wiki
+- Total wiki pages: 14 entities + 28 concepts + 15 sources + 1 log + 1 state = 58 páginas wiki
+
+## [2026-07-16] state | Mitigación de desincronización entre sesiones
+
+- Created `wiki/STATE.md`: snapshot del vault con conteos, últimas operaciones y pending items
+- Added "On Session Start" section to `AGENTS.md` pointing to `wiki/STATE.md`
+- Updated `wiki/index.md` count to include STATE.md
+- Total wiki pages: 14 entities + 28 concepts + 15 sources + 1 log + 1 state = 59

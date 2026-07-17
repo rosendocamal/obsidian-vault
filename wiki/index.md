@@ -143,4 +143,4 @@
 
 *No hay síntesis general aún. Ingestar al menos 3 fuentes para generar.*
 
-*(Total: 53 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 71 fuentes raw | Wiki: 14 entities + 28 concepts + 15 sources + 1 log = 58 páginas wiki)*
+*(Total: 53 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 71 fuentes raw | Wiki: 14 entities + 28 concepts + 15 sources + 1 log + 1 state = 59 páginas wiki)*

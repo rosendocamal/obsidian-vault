@@ -75,3 +75,7 @@ Periodic health check:
 - [ ] Conflicting claims are flagged, not silently overwritten
 - [ ] Orphan pages resolved
 - [ ] Stale sources marked superseded if updated versions exist
+
+## On Session Start
+
+Read `wiki/STATE.md` first for the current vault state snapshot.
