@@ -1,0 +1,123 @@
+---
+title: "Análisis de la Relación entre la Nada, la Maldad y Dios"
+type: text
+author: "Rosendo Camal"
+date: 2024-12-30
+---
+# Análisis de la Relación entre la Nada, la Maldad y Dios
+
+## Introducción
+
+Mi reflexión sobre la relación entre Dios y el ser humano surge de un proceso personal, sin ningún tipo de formación formal en matemáticas, teología o filosofía, abordado desde la perspectiva de un principiante o aficionado. Mi nivel académico se limita a estudios de preparatoria, lo que me lleva a tratar de encontrar enfoques simples para tratar temas tan vastos y complejos. Para ello, he recurrido a analogías y comparaciones que, si bien no pretenden capturar la totalidad de los conceptos divinos, buscan ofrecer una interpretación comprensible desde mi visión personal. Las matemáticas, utilizadas en este caso como herramienta, no tienen la intención de definir lo divino de manera reductora, sino que buscan servir como medio de ilustración. A lo largo de este análisis, reconozco que mis ideas aún están en formación, y aunque los conceptos aquí expuestos pueden tener debilidades y limitaciones, también abren espacio para el crecimiento y el diálogo, con la esperanza de que otras reflexiones puedan enriquecer y fortalecer el entendimiento de estos temas.
+
+## El conjunto vacío como subconjunto de todos los conjuntos
+
+La Teoría de Conjuntos es la rama matemática que estudia y analiza a los conjuntos, a los grupos de elementos y permite entender sus atributos y características. Un conjunto es una agrupación de elementos tanto si comparten características y atributos como si no tuvieran nada en común. En esencia, son elementos activos de manera individual y en unidos forman un conjunto.
+
+Un ejemplo son los tipos de números: el conjunto de números naturales ($\mathbb{N}$), conjunto de números enteros ($\mathbb{Z}$), el conjunto de números reales ($\mathbb{R}$), y así podemos ir agrupando a los números, pero los anteriores la mayoría los reconoce y los usa.
+
+También los conjuntos poseen subconjuntos y es la distinta manera en la que se pueden ir agrupando los elementos de un conjunto. Podemos afirmar que un conjunto siempre va a contener otros conjuntos, subconjuntos. Incluso teniendo los subconjuntos, podemos continuar hasta obtener un conjunto vacío, que no es más que la nada.
+
+Los números naturales son un subconjunto propio de los números enteros y estos a su vez de los números reales.
+
+$$
+\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{R}
+$$
+
+Un ejemplo cotidiano de los conjuntos sería la manera en la que se dividen la ropa para lavar, pueden ser agrupados por colores y por otro lado, la ropa blanca. Podemos expresar que la ropa sucia es el conjunto $R$, y todos sus elementos serían cada una de las prendas individuales a lavar. Sus subconjuntos, en este caso, son la ropa blanca ($B$) y la ropa de color ($C$).
+
+$$
+R = \{ x \mid x \text{ es cada una de las prendas sucias a lavar} \}
+$$
+
+$$
+B = \{ a \mid a \text{ es cada una de las prendas blancas a lavar} \}
+$$
+
+$$
+C = \{ b \mid b \text{ es cada una de las prendas de color a lavar} \}
+$$
+
+$$
+B \subseteq R \quad \text{y} \quad C \subseteq R
+$$
+
+$$
+B \subseteq R \quad \text{y} \quad C \subseteq R = \{ x \mid x \in R \}
+$$
+
+En el contexto anterior podemos decir que el conjunto $R$ es el conjunto universal ($U$) y sus subconjuntos, únicamente denominarlos como conjuntos $B$ y $C$. El conjunto universal ($U$) es el conjunto máximo, contiene todo, o al menos es el más grande y contiene a todos los conjuntos y sus subconjuntos y elementos posibles bajo un contexto o un marco específico y definido, con la finalidad de evitar las contradicciones como la paradoja de Russell. Podemos considerar al todo como conjunto $U$.
+
+Así como el conjunto universal lo podemos considerar como el todo, existe una equivalencia a la nada. Este es el subconjunto universal $\emptyset$, el conjunto vacío. El conjunto vacío ($\emptyset$) es el subconjunto de todos los conjuntos, incluyendo al conjunto $U$. El conjunto vacío representa a la nada y ningún elemento puede formar parte de ella y todos los conjuntos vacíos son iguales. Retomando la idea de que los subconjuntos son una manera en la que se puede ordenar los elementos de un conjunto, entonces el conjunto vacío es una manera de ordenar elementos. En otras palabras, tomamos ningún elemento de un conjunto y lo ordenamos, la nada no se puede ordenar por lo que no hacemos nada, pero el no hacer nada ya es de alguna forma extraña de ordenar y con ello obtenemos un subconjunto vacío ($\emptyset$), siendo parte la nada del todo.
+
+Las distintas maneras de obtener los subconjuntos es obteniendo su cardinalidad (la cantidad de elementos que contiene) y elevando 2 a esa cardinalidad. Y el resultado de subconjuntos de cualquier conjunto, al parecer extraño, es uno más de lo que podemos considerar, este es contraintuitivo y efectivamente es el subconjunto vacío, que se logra tomando nada, o no tomando algo.
+
+Con el ejemplo de la ropa, supongamos que tenemos 10 prendas en total, 5 de color y el resto blanco. Su cardinalidad es 10 y el número de subconjuntos es 1024, pero solo he manejado dos subconjuntos de los 1024 posibles.
+
+$$
+|R| = 10
+$$
+
+$$
+2^{|R|} = 1024
+$$
+
+Y si uno quiere obtener los subconjuntos en su forma enumerativa, lo puede calcular con la fórmula de combinatoria y notarán que el subconjunto vacío es parte del conjunto.
+
+$$
+\sum_{x=0}^{|R|} \binom{|R|}{x} = 2^{|R|} \quad \text{o bien} \quad \sum_{r=0}^{|R|} \left( {\scriptscriptstyle |R|} \, \text{C} \, x \right) = 2^{|R|}
+$$
+
+## La nada, el conjunto vacío como la maldad
+
+El conjunto vacío ($\emptyset$) es equivalente ($\equiv$) a la nada y, al formar parte de todos los conjuntos, se puede malinterpretar como si fuese un elemento activo, como si no existiera como tal. La nada surge ante la ausencia de los elementos del todo, al igual que $\emptyset$ surge ante la ausencia de los elementos de cualquier conjunto, incluyendo al conjunto $U$. Ningún elemento puede formar parte de la nada, y la nada no puede formar parte de los elementos del todo; solo se puede mantener contenido en el todo esperando su ausencia.
+
+$$
+\forall x \mid x \notin \emptyset
+$$
+
+$$
+\forall x \mid x = \emptyset \rightarrow x \notin U \land x \subseteq U
+$$
+
+La maldad es la ausencia de Dios, como la sombra ante la ausencia de luz. Sólo cuando la creación se aparta de Dios resurge la maldad entre las tinieblas. Como la nada y $\emptyset$ son subconjuntos de todo y de $U$, la maldad forma parte de Dios, como un subconjunto o contenido de Dios.
+
+La maldad, siendo la ausencia de lo divino, es parte de la creación, no porque sea inherente a Dios, sino porque es la consecuencia de la ausencia de Dios. Entender que la maldad no es una entidad en sí misma; más bien, es la ausencia de la bondad y el orden divino. La maldad existe como una desviación de lo divino, como un desorden que surge cuando la Creación se aparta del plan divino del Creador. En este sentido, la maldad no tiene una existencia activa; es simplemente la falta de lo que debería ser.
+
+Al igual que el conjunto vacío es un conjunto sin elementos, la maldad no es algo independiente ni creado por Dios. Según Agustín de Hipona, "la maldad no es algo creado por Dios. La maldad es la ausencia del bien, de la misma forma en que la oscuridad es la ausencia de luz". De manera similar, la maldad representa la ausencia de Dios y su bondad, emergiendo como una vagancia dentro de su creación.
+
+La maldad se manifiesta cuando se da la ausencia de la voluntad divina, y solo en la medida en que nos alejamos de Dios. Al igual que la oscuridad no existe por sí misma, sino como la ausencia de luz, la maldad es la falta de la presencia divina. La sombra se vuelve más opaca y, si lo logra, será oscuridad, a medida que la ausencia de la luz permanezca y disminuya su presencia, es como si la maldad alterara el orden divino. Sin embargo, cuando estamos alineados con Dios, podemos resistir la maldad. La maldad no nos afecta de manera absoluta mientras estamos en sintonía con el Creador, ya que Él es la luz del bombillo que ilumina la habitación.
+
+## El todo, el conjunto universal como Dios
+
+Podemos ver a Dios como el conjunto universal ($U$), que contiene todos los elementos de la Creación y de su plan divino. La creación, por tanto, sería un subconjunto de ese conjunto, el conjunto $A$ o de la creación, y la nada o el vacío podría representarse como el conjunto vacío ($\emptyset$).
+
+La nada [maldad] no pertenece de forma activa a la Creación o a Dios; está contenido como algo que quiere ser pero no le permite ser, solo bajo la ausencia de Dios puede surgir y contaminar a las cosas creadas. Es como una condición, un facto entre Dios y la maldad. Lo anterior es consecuencia, más no una especie de licencia o permiso, de que Dios, al ser bondad, no obliga a las cosas creadas a formar parte de ella. Les deja el libre albedrío para que las cosas creadas, tales como nosotros, elijamos si nos desviamos o no del plan divino. Es decir, tenemos la opción de decidir si apegarnos a Dios o apartarnos de Él.
+
+La creación es susceptible de desviarse de la voluntad divina debido al libre albedrío otorgado por Dios. Según Tomás de Aquino, "el mal no es una naturaleza creada, sino un defecto en la naturaleza creada, que se manifiesta en la desobediencia a la voluntad de Dios". Esta desobediencia, como un defecto o falta de alineación con el plan divino, refleja el vacío dentro de la creación y la ausencia de Dios, generando lo que llamamos maldad.
+
+A pesar de ello, también Dios permite que, si nos desviamos del camino divino, podamos regresar. Estando contaminados o consumidos por la maldad, tenemos salvación, pero como todo buen padre, nos pone condiciones razonables. Y esas razones ya están exploradas por los humanos, y seguimos entendiendo estas condiciones.
+
+## La nada como parte del todo: La maldad como parte de Dios, un ser de bondad
+
+Considero muy alarmante y contra toda tradición arraigada afirmar: «La maldad forma parte de Dios». Que sea parte de él no significa que sea malo. La maldad solo ocurre cuando se aparta de Dios, al igual que Dios se aparta de sí mismo. Los humanos también nos apartamos de nosotros, por ejemplo, a través del consumismo y siguiendo ideales de éxitos que no son nuestros, rechazando a nuestro niño interior o a nuestro yo. La maldad ocurre ante la ausencia de Dios, si Dios es bondad, entonces la maldad nace cuando no hay bondad. Si Dios deja de ser bondad, deja de ser Dios. Por lo que la maldad no es Dios ni lo será, si Dios siendo bondad dejará de lado su bondad, atentaría contra sí y dejaría de ser lo que es, perdiendo eso que lo define como divino y infinito.
+
+La maldad no es una entidad con existencia propia ni una esencia que defina a Dios, la creación o al ser humano. Es, más bien, la ausencia de bondad, como la sombra es ausencia de luz o el frío lo es del calor. Si Dios es el todo, nada existe fuera de Él, pero la posibilidad de la maldad surge en los espacios donde su presencia divina, su bondad, no se manifiesta plenamente. Esto no significa que Dios sea malo, sino que la maldad emerge como una consecuencia potencial en las cosas creadas dotadas de libre albedrío, capaces de alejarse de Él. Así, la maldad se concibe como un vacío dentro del todo, no como un elemento activo o realidad independiente.
+
+Cuando los humanos nos alejamos de nuestra esencia más auténtica, que refleja nuestra imagen y semejanza divina, nos abrimos a un vacío interior. Este alejamiento produce actitudes egoístas, consumistas o de rechazo hacia nosotros mismos y los demás. Es en esa desconexión donde la ausencia de bondad, y por tanto la maldad, se hace presente como carencia, no como algo activo en sí mismo.
+
+La idea de que la maldad ocurre cuando Dios se aparta de sí mismo puede entenderse como un acto creativo que respeta la libertad de los seres humanos. Como he mencionado anteriormente, Dios permite la posibilidad de que las cosas creadas se aparten de Él, de su esencia, de su bondad. Este apartarse no afecta a la naturaleza divina, que es inmutable y perfecta, pero abre un espacio en el que el mal puede manifestarse como una ausencia de la presencia activa divina. Así, Dios no crea el mal, pero permite su posibilidad como parte del diseño de la libertad.
+
+Si Dios al ser todo, incluso las carencias existen dentro de Él, no como afirmaciones de la esencia divina, sino como vacíos donde Él no se manifiesta plenamente. Esto no implica que Dios sea maldad, ya que ello contradeciría su propia naturaleza. Si alguna vez dejara de ser bondad, dejaría de ser Dios, pues su esencia misma sería contradictoria y perdería aquello que lo define como infinito y divino. La paradoja reside en que el mal está permitido en el todo, pero únicamente como ausencia, nunca como elemento activo a la par de las cosas creadas.
+
+La maldad en el ser humano se manifiesta cuando nos alejamos de nuestra esencia auténtica, que es reflejo de nuestra naturaleza como imagen y semejanza de Dios. Este alejamiento ocurre cuando rechazamos nuestro niño interior, adoptamos ideales ajenos o seguimos caminos como el consumismo y la búsqueda de éxitos externos, que nos apartan de nuestra plenitud. Al hacerlo, negamos ser parte del plan divino que guía nuestra existencia, creando un vacío interior donde debería haber bondad y respeto por nosotros mismos y los demás. Para retornar a nuestra esencia divina, es importante identificar estas desconexiones y llenarlas con virtudes que reflejan nuestra verdadera naturaleza: humildad, amor y autenticidad, volviendo así al estado pleno del plano divino de Dios.
+
+Desde esta perspectiva, la creación y la maldad pueden entenderse de manera más integradora. Dios, como bondad absoluta y fuente de libertad, otorga a las criaturas la capacidad de elegir, pues solo en libertad puede existir un amor auténtico y no forzado. En esta libertad surge la posibilidad de separación, eligiendo el mal cuando se apartan de la bondad. La maldad, lejos de contradecir el ser todo de Dios, está contenida dentro del plan divino como un límite necesario. Este límite permite a las cosas creadas ejercer su libertad, eligiendo entre la bondad divina o apartándose de ella, y así manteniendo equilibrio entre creación, libertad y responsabilidad.
+
+## Conclusión: Dios no es malo
+
+El ser humano, al valer su derecho del libre albedrío, puede alejarse del plan divino, y en esa ausencia de Dios, surge la maldad. La maldad no es un elemento en sí mismo, sino la consecuencia de la falta de lo divino.
+
+La maldad se intensifica conforme las cosas creadas se alejan de Dios, de la misma forma que una sombra se vuelve más oscura mientras más ausencia de luz haya. De manera similar, la maldad busca ser lo que no es, como un fractal que aspira a algo que nunca puede alcanzar: por ejemplo, una superficie que desea ser línea o volumen. La maldad parece hacerse más grande y aparenta no tener finitud, pero siempre carece de la esencia divina. Así como el fractal no es lo que quiere ser, ni la sombra puede ser luz, la maldad no puede ser bondad, aunque intenta ser como tal.
+
+Dios permite el libre albedrío y, con ello, la posibilidad de la maldad, pero esta no es creación de Él, sino la falta de la presencia divina. La maldad forma parte del todo, no como un elemento activo, sino como un vacío, una ausencia de la luz divina. En este vacío, siempre está abierta la posibilidad de regresar a la bondad divina, eligiendo regresar al plan de Dios.
