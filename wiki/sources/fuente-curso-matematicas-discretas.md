@@ -3,7 +3,7 @@ title: "Curso: Matemáticas Discretas"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/matematicas-discretas/
+sources: [raw/courses/matematicas-discretas/]
 tags: [matematicas-discretas, logica, conjuntos, grafos]
 ---
 

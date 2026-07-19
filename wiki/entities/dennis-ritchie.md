@@ -20,7 +20,7 @@ Científico computacional estadounidense (1941–2011). Creó el lenguaje de pro
 
 ## Relaciones
 
-- Su lenguaje C fue extendido por [[Bjarne Stroustrup]] para crear C++
+- Su lenguaje C fue extendido por [[bjarne-stroustrup]] para crear C++
 - El kernel de [[linux]] de [[linus-torvalds]] está escrito en C
 - Base de la [[linea-tiempo-lenguajes-programacion]] y [[fundamentos-programacion]]
 - Relacionado con [[grace-hopper]] en la evolución del software

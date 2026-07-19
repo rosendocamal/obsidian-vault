@@ -1,3 +1,12 @@
+---
+title: "Knowledge Base Index"
+type: overview
+created: 2026-07-16
+updated: 2026-07-19
+sources: [AGENTS.md]
+tags: [meta, indice, catalogo]
+---
+
 # Knowledge Base Index
 
 ## Raw Sources
@@ -74,10 +83,20 @@
 | [fedora](entities/fedora.md) | Distribución Linux patrocinada por Red Hat |
 | [virtualbox](entities/virtualbox.md) | Programa de virtualización (Oracle) |
 | [seven-zip](entities/seven-zip.md) | Programa de compresión y cifrado (7z) |
-| [git](entities/git.md) | Sistema de control de versiones distribuido, creado por Linus Torvalds |
-| [fedora](entities/fedora.md) | Distribución Linux patrocinada por Red Hat, usada por el autor |
-| [virtualbox](entities/virtualbox.md) | Programa de virtualización de código abierto (Oracle) |
-| [seven-zip](entities/seven-zip.md) | Programa de compresión y cifrado de archivos (7z) |
+| [augustus-de-morgan](entities/augustus-de-morgan.md) | Matemático; formalizó las Leyes de Morgan en lógica |
+| [github](entities/github.md) | Plataforma de desarrollo colaborativo basada en Git |
+| [red-hat](entities/red-hat.md) | Empresa; patrocinadora de Fedora y creadora de RHEL |
+| [gnu](entities/gnu.md) | Proyecto de software libre; herramientas base de Linux |
+| [microsoft](entities/microsoft.md) | Empresa; creadora de Windows, propietaria de GitHub |
+| [apple](entities/apple.md) | Empresa; creadora de macOS, iPhone y Apple Silicon |
+| [bjarne-stroustrup](entities/bjarne-stroustrup.md) | Ingeniero; creador de C++ |
+| [john-backus](entities/john-backus.md) | Informático; creador de FORTRAN y forma BNF |
+| [john-mccarthy](entities/john-mccarthy.md) | Informático; creador de LISP y pionero de la IA |
+| [john-von-neumann](entities/john-von-neumann.md) | Matemático; arquitectura von Neumann |
+| [vmware](entities/vmware.md) | Plataforma de virtualización empresarial |
+| [hyper-v](entities/hyper-v.md) | Hipervisor de virtualización de Microsoft |
+| [winrar](entities/winrar.md) | Programa de compresión propietario |
+| [winzip](entities/winzip.md) | Programa de compresión propietario |
 
 ### Concepts
 
@@ -111,6 +130,7 @@
 | [linux](concepts/linux.md) | Sistema operativo Linux, kernel, distros | intro-ing-sistemas |
 | [hardware-computacion](concepts/hardware-computacion.md) | CPU, ALU, compuertas, memoria RAM/ROM | intro-ing-sistemas |
 | [cultura-empresarial](concepts/cultura-empresarial.md) | Cultura corporativa, estructura organizacional, casos | cultura-empresarial |
+| [cultura-organizacional](concepts/cultura-organizacional.md) | Valores, normas y prácticas que definen el comportamiento organizacional | cultura-empresarial |
 | [investigacion-operaciones](concepts/investigacion-operaciones.md) | IO, optimización, heurísticas, origen en WWII | investigacion-operaciones |
 | [programacion-orientada-objetos](concepts/programacion-orientada-objetos.md) | POO, Python, clases, objetos, propiedades | poo |
 | [linea-tiempo-lenguajes-programacion](concepts/linea-tiempo-lenguajes-programacion.md) | Historia de lenguajes de programación (1940s–2014) | fundamentos-programacion |
@@ -134,7 +154,7 @@
 | Source | Summary |
 |--------|---------|
 | *De raw/texts* | |
-| [fuent-cuales-son-los-fundamentos](sources/fuent-cuales-son-los-fundamentos.md) | Reflexión sobre fundamentos del conocimiento; incompletitud, fe, axiomas |
+| [fuente-cuales-son-los-fundamentos](sources/fuente-cuales-son-los-fundamentos.md) | Reflexión sobre fundamentos del conocimiento; incompletitud, fe, axiomas |
 | [fuente-extra-extra-la-prensa-en-inaccion](sources/fuente-extra-extra-la-prensa-en-inaccion.md) | Crítica al periodismo en Playa del Carmen; operativo policial, pan y circo |
 | [fuente-relacion-dios-humanos](sources/fuente-relacion-dios-humanos.md) | Analogía matemática π de la relación Dios-humanos; semejanza vs. igualdad |
 | [fuente-relacion-nada-maldad-dios](sources/fuente-relacion-nada-maldad-dios.md) | La nada (∅) y la maldad como subconjuntos vacíos de Dios (U) |
@@ -150,6 +170,8 @@
 | [fuente-curso-investigacion-operaciones](sources/fuente-curso-investigacion-operaciones.md) | Investigación de operaciones: optimización, heurísticas |
 | [fuente-curso-matematicas-discretas](sources/fuente-curso-matematicas-discretas.md) | Matemáticas discretas: Boole, Venn, grafos, binario |
 | [fuente-curso-poo](sources/fuente-curso-poo.md) | POO: Python, evaluación final, propiedades |
+| [fuente-curso-ofimatica](sources/fuente-curso-ofimatica.md) | Coursera Santander: ofimática, Microsoft Office |
+| [fuente-curso-proteccion-datos](sources/fuente-curso-proteccion-datos.md) | Coursera Santander: protección de datos y privacidad |
 | *De raw/docs* | |
 | [fuente-tech-guides](sources/fuente-tech-guides.md) | 7 guías técnicas: Git, Fedora, VirtualBox, 7z, Diskpart |
 | *De raw/journal* | |
@@ -166,9 +188,10 @@
 | Entry | Description |
 |-------|-------------|
 | [wiki/log.md](./log.md) | Registro cronológico append-only de todas las operaciones del vault |
+| [wiki/state.md](./state.md) | Snapshot del vault: conteos, estado git, y tareas pendientes |
 
 ### Overview
 
 *No hay síntesis general aún. Ingestar al menos 3 fuentes para generar.*
 
-*(Total: 53 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 71 fuentes raw | Wiki: 18 entities + 40 concepts + 19 sources + 1 log + 1 state = 79 páginas wiki)*
+*(Total: 55 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 73 fuentes raw | Wiki: 32 entities + 42 concepts + 21 sources + 1 log + 1 state = 97 páginas wiki | 98 archivos md en wiki/ + index.md)*

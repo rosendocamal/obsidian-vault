@@ -3,7 +3,7 @@ title: "Curso: Álgebra Lineal"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/algebra-lineal/
+sources: [raw/courses/algebra-lineal/]
 tags: [algebra-lineal, matrices, programacion]
 ---
 

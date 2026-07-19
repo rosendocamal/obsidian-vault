@@ -3,7 +3,7 @@ title: "Curso: Cálculo Diferencial e Integral"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/calculo/
+sources: [raw/courses/calculo/]
 tags: [calculo, diferencial, integral, matematicas]
 ---
 

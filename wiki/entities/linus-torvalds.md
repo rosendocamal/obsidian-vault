@@ -22,4 +22,4 @@ Ingeniero de software finlandés (1969–). Creador del kernel de Linux (1991) y
 
 - Su sistema operativo [[linux]] es la base de servidores, Android y sistemas embebidos
 - Relacionado con [[dennis-ritchie]] — el kernel de Linux está escrito en C
-- Alternativa de código abierto a los sistemas de [[Microsoft]] y [[Apple]]
+- Alternativa de código abierto a los sistemas de [[microsoft]] y [[apple]]

@@ -16,7 +16,7 @@ Científico británico (1918–2009). Inventó el algoritmo de Booth en 1950 par
 
 - **Algoritmo de Booth (1950)**: multiplicación binaria optimizada que reduce operaciones de suma/resta analizando secuencias de bits
 - **Tambor magnético**: uno de los primeros dispositivos de almacenamiento digital
-- Colaboró con [[John von Neumann]] en proyectos de traducción automática
+- Colaboró con [[john-von-neumann]] en proyectos de traducción automática
 - Trabajó en Birkbeck College, Universidad de Saskatchewan y Lakehead University
 
 ## Relaciones

@@ -78,4 +78,4 @@ Periodic health check:
 
 ## On Session Start
 
-Read `wiki/STATE.md` first for the current vault state snapshot.
+Read `wiki/state.md` first for the current vault state snapshot.

@@ -3,7 +3,7 @@ title: "Curso: Programación Orientada a Objetos"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/poo/
+sources: [raw/courses/poo/]
 tags: [poo, python, programacion, evaluacion]
 ---
 

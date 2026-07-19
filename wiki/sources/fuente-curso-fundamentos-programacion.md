@@ -3,7 +3,7 @@ title: "Curso: Fundamentos de Programación"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/fundamentos-programacion/
+sources: [raw/courses/fundamentos-programacion/]
 tags: [programacion, algoritmos, cpp, educacion]
 ---
 

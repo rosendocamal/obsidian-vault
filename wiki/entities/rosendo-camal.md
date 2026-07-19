@@ -28,7 +28,7 @@ Autor de los 5 textos en `raw/texts/`. Estudiante de ingeniería en la tradició
 | Texto | Fecha | Tema principal |
 |---|---|---|
 | [[fuente-una-perspectiva-de-dios]] | 2024-12-28 | Perspectiva de Dios mediante Teoría de Conjuntos |
-| [[fuent-cuales-son-los-fundamentos]] | 2026-03-20 | Fundamentos del conocimiento |
+| [[fuente-cuales-son-los-fundamentos]] | 2026-03-20 | Fundamentos del conocimiento |
 | [[fuente-relacion-dios-humanos]] | 2024-12-29 | Analogía matemática π de la relación Dios-humanos |
 | [[fuente-relacion-nada-maldad-dios]] | 2024-12-30 | La nada, la maldad y Dios como conjuntos |
 | [[fuente-extra-extra-la-prensa-en-inaccion]] | 2026-03-27 | Crítica a la prensa en Playa del Carmen |

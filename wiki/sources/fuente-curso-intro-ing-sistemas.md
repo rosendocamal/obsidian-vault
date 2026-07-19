@@ -3,7 +3,7 @@ title: "Curso: Introducción a la Ingeniería de Sistemas"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/intro-ing-sistemas/
+sources: [raw/courses/intro-ing-sistemas/]
 tags: [sistemas, hardware, software, linux, cpp]
 ---
 

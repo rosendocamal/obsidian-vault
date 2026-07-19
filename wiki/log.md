@@ -1,3 +1,12 @@
+---
+title: "Wiki Log"
+type: overview
+created: 2026-07-16
+updated: 2026-07-19
+sources: [AGENTS.md]
+tags: [meta, changelog, historial]
+---
+
 # Wiki Log
 
 ## [2026-07-16] setup | Estructura inicial
@@ -45,7 +54,7 @@
 - Created 4 entity pages in `wiki/entities/`:
   - rosendo-camal, san-agustin, karl-barth, tomas-de-aquino
 - Created 5 source pages in `wiki/sources/`:
-  - fuent-cuales-son-los-fundamentos, fuente-extra-extra-la-prensa-en-inaccion, fuente-relacion-dios-humanos, fuente-relacion-nada-maldad-dios, fuente-una-perspectiva-de-dios
+  - fuente-cuales-son-los-fundamentos, fuente-extra-extra-la-prensa-en-inaccion, fuente-relacion-dios-humanos, fuente-relacion-nada-maldad-dios, fuente-una-perspectiva-de-dios
 - Updated `wiki/index.md` with all new wiki pages (entities, concepts, sources)
 - Cross-references added: every page links to ≥2 related wiki pages via [[wikilinks]]
 - Claims cited with source name and year
@@ -88,3 +97,17 @@
 - Cross-references añadidas: cada página enlaza a ≥2 páginas wiki relacionadas
 - Total raw sources: 71 (sin cambios)
 - Total wiki pages: 18 entities + 40 concepts + 19 sources + 1 log + 1 state = 79 páginas wiki
+
+## [2026-07-19] cleanup | Limpieza completa del vault
+
+- **Frontmatter**: Cerrado `---` faltante en `guia-virtualbox-fedora.md` y `guia-fedora-primeros-pasos.md`
+- **sources field**: Renombrado `source:` → `sources:` en 11 source pages de cursos + tech-guides
+- **index.md**: Eliminadas 4 filas duplicadas (git, fedora, virtualbox, seven-zip); agregada referencia a STATE.md
+- **Entity pages creadas (14)**: augustus-de-morgan, github, red-hat, gnu, microsoft, apple, bjarne-stroustrup, john-backus, john-mccarthy, john-von-neumann, vmware, hyper-v, winrar, winzip
+- **Concept page creada (1)**: cultura-organizacional
+- **Source pages creadas (2)**: fuente-curso-ofimatica (coursera-santander), fuente-curso-proteccion-datos (santander)
+- **Wikilinks reparados**: `[[diagramas-de-venn]]` → `[[john-venn]]` (3 refs), `[[ayuda_algoritmos]]` → `[[fundamentos-programacion]]`
+- **Pocos links mejorados**: Añadidos wikilinks en guia-diskpart-usb (0→3), guia-7z-cifrado-compresion (1→3), fuente-journal-algoritmos (1→2), fuente-journal-calculo (1→2)
+- **STATE.md**: Actualizado con snapshot completo
+- Total raw sources: 73 (+2 coursera/santander)
+- Total wiki pages: 32 entities + 42 concepts + 21 sources + 1 log + 1 state = 97 páginas wiki

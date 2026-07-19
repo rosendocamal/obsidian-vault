@@ -21,6 +21,6 @@ Científica computacional y contraalmirante estadounidense (1906–1992). Pioner
 
 ## Relaciones
 
-- Pionera de la [[linea-tiempo-lenguajes-programacion]] junto a [[John Backus]] y [[John McCarthy]]
+- Pionera de la [[linea-tiempo-lenguajes-programacion]] junto a [[john-backus]] y [[john-mccarthy]]
 - Su trabajo con compiladores es fundamental en [[fundamentos-programacion]]
 - Relacionada con [[dennis-ritchie]] en la evolución de lenguajes de programación

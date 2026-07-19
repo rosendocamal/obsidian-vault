@@ -3,7 +3,7 @@ title: "Curso: Cálculo Vectorial"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/calculo-vectorial/
+sources: [raw/courses/calculo-vectorial/]
 tags: [calculo-vectorial, vectores, geometria-analitica]
 ---
 

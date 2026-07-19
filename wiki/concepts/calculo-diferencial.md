@@ -7,6 +7,7 @@ sources:
   - raw/courses/calculo/diferencial/dominio-rango-funciones.md
   - raw/courses/calculo/diferencial/infografia-numeros-reales.md
   - raw/courses/calculo/diferencial/tabla-de-formulas.md
+  - raw/journal/2025-01-26.md
 tags: [calculo, derivadas, funciones, matematicas]
 ---
 
@@ -23,6 +24,7 @@ Rama del cálculo que estudia las derivadas de funciones y sus aplicaciones. Ana
 
 ## Relaciones
 
+- La entrada de diario (2025-01-26) ofrece una perspectiva personal con funciones inversas (fuente: [[fuente-journal-calculo]])
 - Base del [[calculo-integral]] (el teorema fundamental del cálculo los conecta)
 - Los vectores en [[vectores-geometria-analitica]] usan cálculo para tasas de cambio
 - Los números reales se relacionan con [[simbologia-matematica]]

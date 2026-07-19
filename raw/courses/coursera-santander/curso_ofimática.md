@@ -1,0 +1,14 @@
+# Curso de Coursera con Santander de Microsoft Office
+
+Aquí anotaré lo que no sabía de la paquetería y lo que me sea útil, mientras tanto me la estoy pasando bien porque no estoy aprendiendo mucho. Anotaré en el orden aprendido o descubierto.
+
+**La regla**: Esta opción no solo ayuda a dimensionar el tamaño físico de la hoja del documento, también ayuda a delimitar los margenes de arriba, abajo, izquierda y derecha, de igual forma ayuda a establecer el margen de la primera línea del texto (no lo he probado en varios parráfos, pero quizás así sea para cada uno de los parráfos) y el margen de la siguientes líneas excepto la primera. Tanto el margen izquierdo, el margen de la primera línea del texto y el margen de las siguientes líneas son 3 tipos diferentes de espaciado izquierdo.
+
+**Botón _Eliminar_ y _Suprimir_**: No hay muchas diferencias abismales y sus usos son intuitivos, sin embargo, en MS Word he visto que la diferencia más pequeña consiste en que _Eliminar_ elimina hacia la izquierda y _Suprimir_ hacia la derecha.
+
+**Presionar en un fragmento de texto, mantener _Shift_ y luego dar clic en otra zona más adelante del texto**: Esto lleva a seleccionar texto sin necesidad de hacerlo con el ratón de forma incómoda cuando la selección es larga. Para ello, solo presionas con el mouse (clic derecho) al inicio del texto a seleccionar, presionas _Shift_ y luego vuelves a presionar el mouse donde finaliza el texto a seleccionar, y tienes la selección sin haberlo hecho de manera sostenida con el mouse.
+
+**_Buscar_ y _Reemplazar_**: De esta no diré mucho porque en programación se suele usar, no obstante, un uso hipótetico podría buscar frases o palabras que se repitan, detectarlas y sustituirlas para una mayor variedad léxica. O si has repetido un término mal escrito y corregirlo, aún cuando la detección de gramática no lo haya detectado. Estas herramientas tienen aspectos avanzados y hay que explorarlos, aunque como programador me son obvias, pero no para un oficinista.
+
+**Imprimir**: Suena trivial, no obstante, conozco mucha gente más capacitada, con más edad y con puestos superiores a mi rango (todo es sarcasmo y es cierto) que no sabe ni imprimir. Si eso es díficil, no me quiero imaginar configuraciones y situaciones complejas o avanzadas de impresión. Márgenes, copias, intercalado, selección de páginas, tamaño de hoja, y más. Quizás el único interesante (no trivial) es el intercalado para impresión en dos caras cuando la impresora no puede hacerlo y el sistema no tiene alguna forma automática de manejarlo aún cuando la impresora solo sea capaz de hacerlo en una cara. La otra es hacer estampas y hacer varias copias, e imprimir todas las copias en una hoja (si el caso lo amerita). Son situaciones que se me ocurren, la verdad no soy de imprimir y prefiero las configuraciones de la impresora en cuanto a usar impresión económica, rápida y de boceto, pierdes calidad pero no el trabajo físico con ahorro de tinta y tiempo.
+

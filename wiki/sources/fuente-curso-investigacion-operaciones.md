@@ -3,7 +3,7 @@ title: "Curso: Investigación de Operaciones"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/investigacion-operaciones/
+sources: [raw/courses/investigacion-operaciones/]
 tags: [investigacion-operaciones, optimizacion, modelado]
 ---
 

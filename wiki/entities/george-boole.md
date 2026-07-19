@@ -24,4 +24,4 @@ Matemático y lógico británico (1815–1864). Fundador del álgebra que lleva 
 - Su trabajo fue retomado por [[claude-shannon]] para diseñar circuitos digitales
 - Base de la [[algebra-booleana]] y la [[logica-computacional]]
 - Gottfried [[gottfried-leibniz]] anticipó conceptos binarios que Boole formalizó
-- [[Augustus De Morgan]] contemporáneo que amplió la lógica simbólica (Leyes de Morgan)
+- [[augustus-de-morgan]] contemporáneo que amplió la lógica simbólica (Leyes de Morgan)

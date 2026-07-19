@@ -3,7 +3,7 @@ title: "Curso: Cultura Empresarial"
 type: source
 created: 2026-07-16
 updated: 2026-07-16
-source: raw/courses/cultura-empresarial/
+sources: [raw/courses/cultura-empresarial/]
 tags: [administracion, cultura-empresarial, estrategia]
 ---
 

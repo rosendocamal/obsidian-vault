@@ -23,7 +23,7 @@ Sistema lógico-matemático desarrollado por [[george-boole]] que opera con valo
 
 ## Leyes fundamentales
 
-- Leyes de Morgan: ¬(A ∧ B) = ¬A ∨ ¬B, ¬(A ∨ B) = ¬A ∧ ¬B ([[Augustus De Morgan]])
+- Leyes de Morgan: ¬(A ∧ B) = ¬A ∨ ¬B, ¬(A ∨ B) = ¬A ∧ ¬B ([[augustus-de-morgan]])
 - Propiedades conmutativa, asociativa, distributiva, identidad, complemento
 
 ## Aplicaciones

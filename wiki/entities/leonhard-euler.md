@@ -22,5 +22,5 @@ Matemático suizo (1707–1783). Considerado el matemático más prolífico de l
 ## Relaciones
 
 - Padre de la [[teoria-grafos]]
-- Sus esquemas gráficos antecedieron los [[diagramas-de-venn]] de [[john-venn]]
+- Sus esquemas gráficos antecedieron los diagramas de [[john-venn]]
 - La [[simbologia-matematica]] usa constante π y notación desarrollada en parte por Euler

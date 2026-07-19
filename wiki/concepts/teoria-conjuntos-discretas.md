@@ -23,11 +23,11 @@ Rama de las matemáticas discretas que estudia las colecciones de objetos (conju
 
 ## Representación gráfica
 
-Los [[diagramas-de-venn]] (creados por [[john-venn]]) permiten visualizar estas operaciones mediante círculos superpuestos, basándose en esquemas previos de [[leonhard-euler]].
+Los diagramas de [[john-venn]] permiten visualizar estas operaciones mediante círculos superpuestos, basándose en esquemas previos de [[leonhard-euler]].
 
 ## Relaciones
 
 - Base para la [[algebra-booleana]] y la [[logica-computacional]]
-- Los [[diagramas-de-venn]] son su principal herramienta visual
+- Los diagramas de [[john-venn]] son su principal herramienta visual
 - Conecta con la [[simbologia-matematica]] (notación de conjuntos)
 - En el ámbito teológico, [[teoria-conjuntos-teologia]] aplica conceptos similares a la divinidad (*Nota: uso metafórico, no formal*)
