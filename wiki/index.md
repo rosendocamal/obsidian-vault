@@ -37,18 +37,18 @@
 
 ### Courses (Material universitario)
 
-| Course | Files | Semestre | Summary | Source Page |
-|--------|-------|----------|---------|-------------|
-| [algebra-lineal](../raw/courses/algebra-lineal/) | 2 | 2° | Verificador de sistemas lineales, proyecto integrador | [fuente-curso-algebra-lineal](sources/fuente-curso-algebra-lineal.md) |
-| [calculo](../raw/courses/calculo/) | 9 | 1°-2° | Cálculo diferencial (3) + integral (6): fórmulas, ejercicios | [fuente-curso-calculo](sources/fuente-curso-calculo.md) |
-| [calculo-vectorial](../raw/courses/calculo-vectorial/) | 13 | 3° | Vectores, paramétricas, polares, geometría analítica | [fuente-curso-calculo-vectorial](sources/fuente-curso-calculo-vectorial.md) |
-| [contabilidad-financiera](../raw/courses/contabilidad-financiera/) | 4 | 2° | Estados financieros, activo/pasivo, cuentas de resultados | [fuente-curso-contabilidad-financiera](sources/fuente-curso-contabilidad-financiera.md) |
-| [cultura-empresarial](../raw/courses/cultura-empresarial/) | 5 | 2° | Administración estratégica, FODA, Grupo Xcaret | [fuente-curso-cultura-empresarial](sources/fuente-curso-cultura-empresarial.md) |
-| [fundamentos-programacion](../raw/courses/fundamentos-programacion/) | 3 | 1° | Conceptos, estructuras de control, línea del tiempo | [fuente-curso-fundamentos-programacion](sources/fuente-curso-fundamentos-programacion.md) |
-| [intro-ing-sistemas](../raw/courses/intro-ing-sistemas/) | 5 | 1° | Linux, C++, investigaciones | [fuente-curso-intro-ing-sistemas](sources/fuente-curso-intro-ing-sistemas.md) |
-| [investigacion-operaciones](../raw/courses/investigacion-operaciones/) | 2 | 3° | Introducción a IO | [fuente-curso-investigacion-operaciones](sources/fuente-curso-investigacion-operaciones.md) |
-| [matematicas-discretas](../raw/courses/matematicas-discretas/) | 9 | 1° | Álgebra Boole, Karnaugh, teoría de grafos, sistemas numéricos | [fuente-curso-matematicas-discretas](sources/fuente-curso-matematicas-discretas.md) |
-| [poo](../raw/courses/poo/) | 1 | 1° | Evaluación final POO (Python) | [fuente-curso-poo](sources/fuente-curso-poo.md) |
+| Course                                                                 | Files | Cuatrimestre | Summary                                                       | Source Page                                                                                 |
+| ---------------------------------------------------------------------- | ----- | ------------ | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [algebra-lineal](../raw/courses/algebra-lineal/)                       | 2     | 2°           | Verificador de sistemas lineales, proyecto integrador         | [fuente-curso-algebra-lineal](sources/fuente-curso-algebra-lineal.md)                       |
+| [calculo](../raw/courses/calculo/)                                     | 9     | 1°-2°        | Cálculo diferencial (3) + integral (6): fórmulas, ejercicios  | [fuente-curso-calculo](sources/fuente-curso-calculo.md)                                     |
+| [calculo-vectorial](../raw/courses/calculo-vectorial/)                 | 13    | 3°           | Vectores, paramétricas, polares, geometría analítica          | [fuente-curso-calculo-vectorial](sources/fuente-curso-calculo-vectorial.md)                 |
+| [contabilidad-financiera](../raw/courses/contabilidad-financiera/)     | 4     | 2°           | Estados financieros, activo/pasivo, cuentas de resultados     | [fuente-curso-contabilidad-financiera](sources/fuente-curso-contabilidad-financiera.md)     |
+| [cultura-empresarial](../raw/courses/cultura-empresarial/)             | 5     | 2°           | Administración estratégica, FODA, Grupo Xcaret                | [fuente-curso-cultura-empresarial](sources/fuente-curso-cultura-empresarial.md)             |
+| [fundamentos-programacion](../raw/courses/fundamentos-programacion/)   | 3     | 1°           | Conceptos, estructuras de control, línea del tiempo           | [fuente-curso-fundamentos-programacion](sources/fuente-curso-fundamentos-programacion.md)   |
+| [intro-ing-sistemas](../raw/courses/intro-ing-sistemas/)               | 5     | 1°           | Linux, C++, investigaciones                                   | [fuente-curso-intro-ing-sistemas](sources/fuente-curso-intro-ing-sistemas.md)               |
+| [investigacion-operaciones](../raw/courses/investigacion-operaciones/) | 2     | 3°           | Introducción a IO                                             | [fuente-curso-investigacion-operaciones](sources/fuente-curso-investigacion-operaciones.md) |
+| [matematicas-discretas](../raw/courses/matematicas-discretas/)         | 9     | 1°           | Álgebra Boole, Karnaugh, teoría de grafos, sistemas numéricos | [fuente-curso-matematicas-discretas](sources/fuente-curso-matematicas-discretas.md)         |
+| [poo](../raw/courses/poo/)                                             | 1     | 1°           | Evaluación final POO (Python)                                 | [fuente-curso-poo](sources/fuente-curso-poo.md)                                             |
 
 ## Wiki Pages
 
@@ -70,6 +70,14 @@
 | [grace-hopper](entities/grace-hopper.md) | Científica; creadora de COBOL y del primer compilador |
 | [dennis-ritchie](entities/dennis-ritchie.md) | Científico; creador de C y co-creador de UNIX |
 | [miguel-quintana-pali](entities/miguel-quintana-pali.md) | Empresario mexicano; fundador de Grupo Xcaret |
+| [git](entities/git.md) | Sistema de control de versiones distribuido (Linus Torvalds) |
+| [fedora](entities/fedora.md) | Distribución Linux patrocinada por Red Hat |
+| [virtualbox](entities/virtualbox.md) | Programa de virtualización (Oracle) |
+| [seven-zip](entities/seven-zip.md) | Programa de compresión y cifrado (7z) |
+| [git](entities/git.md) | Sistema de control de versiones distribuido, creado por Linus Torvalds |
+| [fedora](entities/fedora.md) | Distribución Linux patrocinada por Red Hat, usada por el autor |
+| [virtualbox](entities/virtualbox.md) | Programa de virtualización de código abierto (Oracle) |
+| [seven-zip](entities/seven-zip.md) | Programa de compresión y cifrado de archivos (7z) |
 
 ### Concepts
 
@@ -106,6 +114,20 @@
 | [investigacion-operaciones](concepts/investigacion-operaciones.md) | IO, optimización, heurísticas, origen en WWII | investigacion-operaciones |
 | [programacion-orientada-objetos](concepts/programacion-orientada-objetos.md) | POO, Python, clases, objetos, propiedades | poo |
 | [linea-tiempo-lenguajes-programacion](concepts/linea-tiempo-lenguajes-programacion.md) | Historia de lenguajes de programación (1940s–2014) | fundamentos-programacion |
+| *De raw/docs (guías técnicas)* | | |
+| [guia-git-configuracion](concepts/guia-git-configuracion.md) | Configurar Git y conectar SSH a GitHub | configurar_git_conectar_github |
+| [guia-git-eliminar-archivo](concepts/guia-git-eliminar-archivo.md) | Eliminar archivo del último commit y limpiar historial | eliminar_archivo_commit_git |
+| [guia-github-nuevo-repo](concepts/guia-github-nuevo-repo.md) | Crear y conectar repositorio nuevo en GitHub | new_repository_github |
+| [guia-fedora-primeros-pasos](concepts/guia-fedora-primeros-pasos.md) | Actualización, programas, TLP, cifrado en Fedora | instalacion_fedora_43 |
+| [guia-virtualbox-fedora](concepts/guia-virtualbox-fedora.md) | Instalación VirtualBox en Fedora con firma de módulos | virtualbox_fedora_43 |
+| [guia-7z-cifrado-compresion](concepts/guia-7z-cifrado-compresion.md) | Compresión y cifrado avanzado con 7z | usar_7z |
+| [guia-diskpart-usb](concepts/guia-diskpart-usb.md) | Recuperar USB dañada con Diskpart en Windows | diskpart_recuperación_unidad_usb |
+| *De raw/journal (reflexiones personales)* | | |
+| [reflexion-identidad-eternidad](concepts/reflexion-identidad-eternidad.md) | Identidad, eternidad, paternidad, soledad | 2026-03-20 |
+| [aprendizaje-vs-entretenimiento](concepts/aprendizaje-vs-entretenimiento.md) | Aprendizaje real vs. entretenimiento (Karpathy) | 2026-06-10 |
+| [problemas-fundamentales-sociedad](concepts/problemas-fundamentales-sociedad.md) | Problemas reales vs. distracciones modernas | 2026-06-18 |
+| [salud-y-economia-farmaceutica](concepts/salud-y-economia-farmaceutica.md) | Industria farmacéutica, cura y economía | 2026-06-19 |
+| [plan-algoritmia](concepts/plan-algoritmia.md) | Plan de estudio estructurado de algoritmos | 2026-07-10 |
 
 ### Sources
 
@@ -128,6 +150,12 @@
 | [fuente-curso-investigacion-operaciones](sources/fuente-curso-investigacion-operaciones.md) | Investigación de operaciones: optimización, heurísticas |
 | [fuente-curso-matematicas-discretas](sources/fuente-curso-matematicas-discretas.md) | Matemáticas discretas: Boole, Venn, grafos, binario |
 | [fuente-curso-poo](sources/fuente-curso-poo.md) | POO: Python, evaluación final, propiedades |
+| *De raw/docs* | |
+| [fuente-tech-guides](sources/fuente-tech-guides.md) | 7 guías técnicas: Git, Fedora, VirtualBox, 7z, Diskpart |
+| *De raw/journal* | |
+| [fuente-journal-filosofia](sources/fuente-journal-filosofia.md) | 4 reflexiones filosóficas (marzo-junio 2026) |
+| [fuente-journal-calculo](sources/fuente-journal-calculo.md) | Reflexión sobre la derivada (enero 2025) |
+| [fuente-journal-algoritmos](sources/fuente-journal-algoritmos.md) | Plan de estudio de algoritmia (julio 2026) |
 
 ### Queries
 
@@ -143,4 +171,4 @@
 
 *No hay síntesis general aún. Ingestar al menos 3 fuentes para generar.*
 
-*(Total: 53 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 71 fuentes raw | Wiki: 14 entities + 28 concepts + 15 sources + 1 log + 1 state = 59 páginas wiki)*
+*(Total: 53 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 71 fuentes raw | Wiki: 18 entities + 40 concepts + 19 sources + 1 log + 1 state = 79 páginas wiki)*

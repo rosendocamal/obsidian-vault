@@ -74,3 +74,17 @@
 - Added "On Session Start" section to `AGENTS.md` pointing to `wiki/STATE.md`
 - Updated `wiki/index.md` count to include STATE.md
 - Total wiki pages: 14 entities + 28 concepts + 15 sources + 1 log + 1 state = 59
+
+## [2026-07-17] ingest | Ingest raw/docs/ y raw/journal/
+
+- Leídos 7 archivos en `raw/docs/` (guías técnicas: Git, Fedora, VirtualBox, 7z, Diskpart) y 6 en `raw/journal/`
+- Creadas 4 entities: git, fedora, virtualbox, seven-zip
+- Creados 12 concepts:
+  - 7 desde docs: guia-git-configuracion, guia-git-eliminar-archivo, guia-github-nuevo-repo, guia-fedora-primeros-pasos, guia-virtualbox-fedora, guia-7z-cifrado-compresion, guia-diskpart-usb
+  - 5 desde journal: reflexion-identidad-eternidad, aprendizaje-vs-entretenimiento, problemas-fundamentales-sociedad, salud-y-economia-farmaceutica, plan-algoritmia
+- Creadas 4 source pages: fuente-tech-guides (docs), fuente-journal-filosofia, fuente-journal-calculo, fuente-journal-algoritmos (journal)
+- Actualizado concept `calculo-diferencial` añadiendo fuente `raw/journal/2025-01-26.md`
+- Actualizado `wiki/index.md` con nuevas entidades, conceptos y fuentes
+- Cross-references añadidas: cada página enlaza a ≥2 páginas wiki relacionadas
+- Total raw sources: 71 (sin cambios)
+- Total wiki pages: 18 entities + 40 concepts + 19 sources + 1 log + 1 state = 79 páginas wiki

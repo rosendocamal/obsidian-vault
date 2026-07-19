@@ -4,8 +4,8 @@
 
 ## Última actualización
 
-- **Fecha:** 2026-07-16
-- **Commit:** [`99c4006`](https://github.com/rosendocamal/obsidian-vault/commit/99c4006) — ingesta completa de raw/courses en wiki LLM
+- **Fecha:** 2026-07-17
+- **Commit:** `315da82` — STATE.md y AGENTS.md update
 
 ## Raw Sources
 
@@ -21,23 +21,21 @@
 
 | Categoría | Activas | Detalle |
 |-----------|---------|---------|
-| `entities/` | 14 | rosendo-camal, san-agustin, karl-barth, tomas-de-aquino, george-boole, claude-shannon, gottfried-leibniz, leonhard-euler, john-venn, andrew-booth, linus-torvalds, grace-hopper, dennis-ritchie, miguel-quintana-pali |
-| `concepts/` | 28 | 8 teológicos + 20 técnicos |
-| `sources/` | 15 | 5 texts + 10 courses |
+| `entities/` | 18 | rosendo-camal, san-agustin, karl-barth, tomas-de-aquino, george-boole, claude-shannon, gottfried-leibniz, leonhard-euler, john-venn, andrew-booth, linus-torvalds, grace-hopper, dennis-ritchie, miguel-quintana-pali, git, fedora, virtualbox, seven-zip |
+| `concepts/` | 40 | 8 teológicos + 20 técnicos + 7 guías docs + 5 reflexiones journal |
+| `sources/` | 19 | 5 texts + 10 courses + 1 docs + 3 journal |
 | `queries/` | 0 | *(vacíos)* |
 | `overview/` | 0 | *(vacíos)* |
-| **Páginas** | **58** | *(más index.md, log.md, STATE.md)* |
+| **Páginas** | **79** | *(más index.md, log.md, STATE.md)* |
 
 ## Git
 
-- **Último commit:** `99c4006`
+- **Último commit:** `315da82`
 - **Remote:** `git@github.com:rosendocamal/obsidian-vault.git`
 - **Branch:** `master`
 
 ## Pending
 
-- [ ] Ingest `raw/docs/` (7 files de documentación técnica)
-- [ ] Ingest `raw/journal/` (6 entries de diario personal)
 - [ ] Generate overview/synthesis page (`wiki/overview/`)
 - [ ] Lint wikilinks (verificar que todos los `[[wikilinks]]` resuelvan)
 - [ ] Archive user queries when asked (`wiki/queries/`)
