@@ -10,7 +10,7 @@ tags: [vectores, geometria, calculo-vectorial, matematicas]
 
 # Vectores y Geometría Analítica
 
-Rama de la matemática que estudia vectores, sus propiedades y aplicaciones geométricas. Un vector es un segmento dirigido con magnitud y dirección.
+Rama de la matemática que estudia vectores, sus propiedades y aplicaciones geométricas. Un vector es un segmento dirigido con magnitud y dirección. (actividad_01, 2026)
 
 ## Operaciones vectoriales
 

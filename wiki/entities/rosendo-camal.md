@@ -14,7 +14,7 @@ tags: [autor, ingeniería, teología, filosofía, Playa del Carmen]
 
 # Rosendo Camal
 
-Autor de los 5 textos en `raw/texts/`. Estudiante de ingeniería en la tradición de Dijkstra, con interés en Terence Tao y reflexiones personales sobre teología, filosofía y epistemología.
+Autor de los 5 textos en `raw/texts/`. Estudiante de ingeniería en la tradición de Dijkstra, con interés en Terence Tao y reflexiones personales sobre teología, filosofía y epistemología. (una-perspectiva-de-dios, 2024)
 
 ## Perfil intelectual
 

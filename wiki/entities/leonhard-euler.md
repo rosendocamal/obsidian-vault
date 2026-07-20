@@ -11,7 +11,7 @@ tags: [matematicas, grafos, topologia, logica]
 
 # Leonhard Euler
 
-Matemático suizo (1707–1783). Considerado el matemático más prolífico de la historia. Resolvió el problema de los Puentes de Königsberg, considerado el origen de la teoría de grafos.
+Matemático suizo (1707–1783). Considerado el matemático más prolífico de la historia. Resolvió el problema de los Puentes de Königsberg, considerado el origen de la teoría de grafos. (teoria-de-grafos, 2026)
 
 ## Aportaciones clave
 

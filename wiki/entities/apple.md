@@ -9,7 +9,7 @@ tags: [empresa, hardware, software, sistemas-operativos]
 
 # Apple
 
-Empresa tecnológica estadounidense fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en 1976. Creadora del Macintosh, iPhone, iPad y el ecosistema macOS/iOS. Conocida por la integración hardware-software y el diseño premium.
+Empresa tecnológica estadounidense fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en 1976. Creadora del Macintosh, iPhone, iPad y el ecosistema macOS/iOS. Conocida por la integración hardware-software y el diseño premium. (linux-os, 2026)
 
 ## Productos principales
 

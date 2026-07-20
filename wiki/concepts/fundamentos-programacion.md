@@ -11,7 +11,7 @@ tags: [programacion, algoritmos, logica, computacion]
 
 # Fundamentos de Programación
 
-Base conceptual de la programación de computadoras: algoritmos, variables, estructuras de control, tipos de datos y paradigmas de programación.
+Base conceptual de la programación de computadoras: algoritmos, variables, estructuras de control, tipos de datos y paradigmas de programación. (estructuras-control-datos, 2026)
 
 ## Conceptos clave
 

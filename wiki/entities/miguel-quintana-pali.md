@@ -10,7 +10,7 @@ tags: [empresario, turismo, mexico, quintana-roo]
 
 # Miguel Quintana Pali
 
-Empresario mexicano, fundador de Grupo Xcaret (1990) junto a los hermanos Oscar, Marcos y Carlos Constandse. Su visión fue preservar y compartir la belleza natural y cultural de la península de Yucatán mediante experiencias turísticas sostenibles.
+Empresario mexicano, fundador de Grupo Xcaret (1990) junto a los hermanos Oscar, Marcos y Carlos Constandse. Su visión fue preservar y compartir la belleza natural y cultural de la península de Yucatán mediante experiencias turísticas sostenibles. (caso-grupoxcaret, 2026)
 
 ## Aportaciones clave
 

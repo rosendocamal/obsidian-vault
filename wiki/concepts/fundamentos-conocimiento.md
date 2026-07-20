@@ -10,7 +10,7 @@ tags: [epistemología, fundamentos, ciencia, filosofía, incompletitud]
 
 # Fundamentos del Conocimiento
 
-Reflexión sobre la naturaleza de los fundamentos del conocimiento en tiempos de obsolescencia de habilidades técnicas, incertidumbre laboral y difuminación de la identidad humana.
+Reflexión sobre la naturaleza de los fundamentos del conocimiento en tiempos de obsolescencia de habilidades técnicas, incertidumbre laboral y difuminación de la identidad humana. Como estudiante de la rama ingenieril dentro de la cuna del maestro Dijkstra, del interés actual de Terence Tao y del desastre contemporáneo, la pregunta inevitable es: ¿Qué son los fundamentos? (cuales_son_los_fundamentos, 2026)
 
 ## La pregunta central
 
@@ -30,7 +30,13 @@ Los Teoremas de Incompletitud de Kurt Gödel, la Indecibilidad de Turing, los pr
 
 Los axiomas son verdaderos y no se demuestran; se aceptan. Son la fe matemática. El conocimiento mismo es fe. Kant recuerda estudiar al noúmeno tanto como al fenómeno: la razón y los sentidos tienen límites y ahí entra la fe (Rosendo Camal, 2026).
 
+> La ciencia es la nueva religión, es un final cruel para el «Superhombre» de Nietzsche. Hemos matado a Dios en vano y aún no nos hemos liberado de las cadenas de la religión. No somos dignos, aún, de conocer los planes del «matemático de alto nivel».
+
 > **OPEN QUESTION** ¿Son los axiomas equivalentes a dogmas religiosos? Si no podemos hablar de filosofía sin recordar que no tenemos conocimiento de qué es conocimiento, ¿cuál es el verdadero fundamento?
+
+## Conclusión del autor
+
+> No queda más que aceptar que la mente humana es limitada y nuestro humilde intelecto imperfecto. Una máquina no debería imitar lo que somos porque somos imperfectos y tontos inteligentes.
 
 ## Relación con otros conceptos
 

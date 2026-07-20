@@ -10,7 +10,7 @@ tags: [optimizacion, modelado, administracion, matematicas-aplicadas]
 
 # Investigación de Operaciones
 
-Disciplina que ayuda a organizaciones a tomar mejores decisiones mediante modelos matemáticos, heurísticas y el método científico. Núcleo: la resolución de problemas con restricciones, buscando la solución óptima.
+Disciplina que ayuda a organizaciones a tomar mejores decisiones mediante modelos matemáticos, heurísticas y el método científico. Núcleo: la resolución de problemas con restricciones, buscando la solución óptima. (io-introduccion, 2026)
 
 ## Naturaleza
 

@@ -10,7 +10,7 @@ tags: [matematicas, notacion, simbolos, educacion]
 
 # Simbología Matemática
 
-Conjunto de símbolos, letras (latinas y griegas) y notaciones utilizados para expresar conceptos matemáticos con precisión. Es el lenguaje formal de las matemáticas y la computación.
+Conjunto de símbolos, letras (latinas y griegas) y notaciones utilizados para expresar conceptos matemáticos con precisión. Es el lenguaje formal de las matemáticas y la computación. (simbologias-y-planteamientos, 2026)
 
 ## Símbolos clave documentados
 

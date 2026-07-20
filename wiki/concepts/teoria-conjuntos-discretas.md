@@ -12,7 +12,7 @@ tags: [matematicas-discretas, conjuntos, logica, diagramas]
 
 # Teoría de Conjuntos (Matemáticas Discretas)
 
-Rama de las matemáticas discretas que estudia las colecciones de objetos (conjuntos) y las relaciones entre ellos. Herramienta fundamental para la computación, la lógica y la representación de datos.
+Rama de las matemáticas discretas que estudia las colecciones de objetos (conjuntos) y las relaciones entre ellos. Herramienta fundamental para la computación, la lógica y la representación de datos. (aplicaciones-sistemas-numericos-computacion, 2026)
 
 ## Operaciones básicas
 

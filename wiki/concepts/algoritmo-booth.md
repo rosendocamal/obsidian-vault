@@ -10,7 +10,7 @@ tags: [algoritmos, aritmetica-binaria, hardware, computacion]
 
 # Algoritmo de Booth
 
-Método de multiplicación y división binaria inventado por [[andrew-booth]] en 1950. Optimiza el proceso reduciendo el número de operaciones de suma y resta mediante el análisis de secuencias de bits. Es particularmente eficiente con números que contienen largas cadenas de ceros y unos.
+Método de multiplicación y división binaria inventado por [[andrew-booth]] en 1950. Optimiza el proceso reduciendo el número de operaciones de suma y resta mediante el análisis de secuencias de bits. Es particularmente eficiente con números que contienen largas cadenas de ceros y unos. (algoritmos-booth-multiplicacion-division, 2026)
 
 ## Características
 

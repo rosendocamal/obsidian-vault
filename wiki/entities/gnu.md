@@ -9,7 +9,7 @@ tags: [software-libre, codigo-abierto, linux, fsf]
 
 # GNU
 
-Proyecto iniciado por Richard Stallman en 1983 para crear un sistema operativo completamente libre. El nombre es un acrónimo recursivo de "GNU's Not Unix". Proporcionó las herramientas base (GCC, GNU Bash, GNU Core Utilities) que hacen funcional cualquier distribución Linux.
+Proyecto iniciado por Richard Stallman en 1983 para crear un sistema operativo completamente libre. El nombre es un acrónimo recursivo de "GNU's Not Unix". Proporcionó las herramientas base (GCC, GNU Bash, GNU Core Utilities) que hacen funcional cualquier distribución Linux. (instalacion_fedora_43, 2026)
 
 ## Componentes clave
 

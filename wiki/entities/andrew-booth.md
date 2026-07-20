@@ -10,7 +10,7 @@ tags: [computacion, algoritmos, hardware, aritmetica-binaria]
 
 # Andrew Donald Booth
 
-Científico británico (1918–2009). Inventó el algoritmo de Booth en 1950 para multiplicación y división binaria con signo mediante complemento a dos. También diseñó el tambor magnético, precursor de la memoria RAM.
+Científico británico (1918–2009). Inventó el algoritmo de Booth en 1950 para multiplicación y división binaria con signo mediante complemento a dos. También diseñó el tambor magnético, precursor de la memoria RAM. (algoritmos-booth-multiplicacion-division, 2026)
 
 ## Aportaciones clave
 

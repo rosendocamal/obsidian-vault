@@ -12,7 +12,7 @@ tags: [logica, computacion, matematicas-discretas, circuitos]
 
 # Álgebra Booleana
 
-Sistema lógico-matemático desarrollado por [[george-boole]] que opera con valores binarios (verdadero=1, falso=0) y operaciones fundamentales (AND, OR, NOT). Es la base teórica de la electrónica digital y la computación moderna.
+Sistema lógico-matemático desarrollado por [[george-boole]] que opera con valores binarios (verdadero=1, falso=0) y operaciones fundamentales (AND, OR, NOT). Es la base teórica de la electrónica digital y la computación moderna. (investigacion, 2026)
 
 ## Operaciones fundamentales
 

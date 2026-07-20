@@ -10,7 +10,7 @@ tags: [teólogo, neoortodoxia, Creador-Creación, distinción divina]
 
 # Karl Barth
 
-Teólogo suizo del siglo XX, citado en *Relación Dios-Humanos* para reforzar la distinción entre el Creador y la Creación.
+Teólogo suizo del siglo XX, citado en *Relación Dios-Humanos* para reforzar la distinción entre el Creador y la Creación. (relacion-dios-humanos, 2024)
 
 ## Citación en los textos de Camal
 

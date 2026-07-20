@@ -11,7 +11,7 @@ tags: [teología, teoría de conjuntos, conjunto vacío, conjunto universal, lib
 
 # Teoría de Conjuntos aplicada a la Teología
 
-Uso de la Teoría de Conjuntos como marco formal para modelar la relación entre Dios, la creación, la nada y la maldad.
+Uso de la Teoría de Conjuntos como marco formal para modelar la relación entre Dios, la creación, la nada y la maldad. (una-perspectiva-de-dios, 2026)
 
 ## Definiciones teológicas
 
@@ -59,6 +59,8 @@ $$
 ## Libre albedrío y cardinalidad
 
 Dios otorga libertad a la creación, lo que permite tanto la convergencia (回归 a Dios) como la divergencia (alejamiento → maldad). La cardinalidad de la creación es finita, la de Dios es infinita.
+
+> **OPEN QUESTION** Si Dios es bondad absoluta, ¿qué pasaría si dejara de ser bondad? La respuesta lógica es que dejaría de ser Dios, pues su esencia misma sería contradictoria. Pero esto plantea una pregunta más profunda: ¿la maldad es simplemente la ausencia de bondad, o existe un nivel donde la ausencia se convierte en presencia activa?
 
 $$
 |A| < |U| \quad \text{(creación finita, Dios infinito)}

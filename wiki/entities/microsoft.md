@@ -3,13 +3,13 @@ title: "Microsoft"
 type: entity
 created: 2026-07-19
 updated: 2026-07-19
-sources: [raw/docs/diskpart_recuperación_unidad_usb.md]
+sources: [raw/docs/diskpart_recuperacion_unidad_usb.md]
 tags: [empresa, software, sistemas-operativos, cloud]
 ---
 
 # Microsoft
 
-Empresa tecnológica estadounidense fundada por Bill Gates y Paul Allen en 1975. Creadora de Windows, Office, Azure y propietaria de [[github]]. Una de las empresas de tecnología más grandes del mundo.
+Empresa tecnológica estadounidense fundada por Bill Gates y Paul Allen en 1975. Creadora de Windows, Office, Azure y propietaria de [[github]]. Una de las empresas de tecnología más grandes del mundo. (diskpart_recuperacion_unidad_usb, 2026)
 
 ## Productos principales
 

@@ -9,7 +9,7 @@ tags: [programacion, lenguajes, cpp, oop]
 
 # Bjarne Stroustrup
 
-Ingeniero de software danés (1950–). Creador del lenguaje de programación C++ (1979) en Bell Labs, extendiendo el lenguaje [[dennis-ritchie|C]] con orientación a objetos, plantillas y programación genérica.
+Ingeniero de software danés (1950–). Creador del lenguaje de programación C++ (1979) en Bell Labs, extendiendo el lenguaje [[dennis-ritchie|C]] con orientación a objetos, plantillas y programación genérica. (linea-tiempo-lenguajes-programacion, 2026)
 
 ## Aportaciones clave
 

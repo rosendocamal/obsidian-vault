@@ -9,7 +9,7 @@ tags: [herramienta, virtualizacion, empresa, enterprise]
 
 # VMware
 
-Empresa y plataforma de virtualización fundada en 1998. Líder en virtualización de servidores y escritorios. Adquirida por Broadcom en 2023. Competidor directo de [[virtualbox]] en el mercado de virtualización.
+Empresa y plataforma de virtualización fundada en 1998. Líder en virtualización de servidores y escritorios. Adquirida por Broadcom en 2023. Competidor directo de [[virtualbox]] en el mercado de virtualización. (virtualbox_fedora_43, 2026)
 
 ## Productos principales
 

@@ -10,7 +10,7 @@ tags: [administracion, estrategia, empresa, cultura-empresarial]
 
 # Análisis FODA
 
-Herramienta estratégica que evalúa las Fortalezas, Oportunidades, Debilidades y Amenazas de una organización. También conocido como SWOT (Strengths, Weaknesses, Opportunities, Threats). Permite diagnosticar la situación interna y externa de una entidad para la toma de decisiones.
+Herramienta estratégica que evalúa las Fortalezas, Oportunidades, Debilidades y Amenazas de una organización. También conocido como SWOT (Strengths, Weaknesses, Opportunities, Threats). Permite diagnosticar la situación interna y externa de una entidad para la toma de decisiones. (analisis-foda, 2026)
 
 ## Componentes
 

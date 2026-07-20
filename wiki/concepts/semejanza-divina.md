@@ -12,7 +12,7 @@ tags: [teología, semejanza, igualdad, imagen, Génesis, Creador, Creación]
 
 # Semejanza Divina
 
-Concepto central de la teología personal de Rosendo Camal: la semejanza (∼) como el vínculo que conecta a Dios con su creación, distinto de la igualdad (=) y más amplio que la aproximación (≈) o la equivalencia (≡).
+Concepto central de la teología personal de Rosendo Camal: la semejanza (∼) como el vínculo que conecta a Dios con su creación, distinto de la igualdad (=) y más amplio que la aproximación (≈) o la equivalencia (≡). (una-perspectiva-de-dios, 2026)
 
 ## Definición formal
 

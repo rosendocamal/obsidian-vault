@@ -10,7 +10,7 @@ tags: [matematicas-discretas, grafos, redes, computacion]
 
 # Teoría de Grafos
 
-Rama de las matemáticas discretas que estudia las relaciones entre objetos mediante grafos: conjuntos de nodos (vértices) conectados por aristas. Iniciada por [[leonhard-euler]] con el problema de los Puentes de Königsberg (1736).
+Rama de las matemáticas discretas que estudia las relaciones entre objetos mediante grafos: conjuntos de nodos (vértices) conectados por aristas. Iniciada por [[leonhard-euler]] con el problema de los Puentes de Königsberg (1736). (teoria-de-grafos, 2026)
 
 ## Conceptos clave
 

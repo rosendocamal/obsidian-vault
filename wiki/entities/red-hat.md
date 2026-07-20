@@ -9,7 +9,7 @@ tags: [empresa, linux, codigo-abierto, enterprise]
 
 # Red Hat
 
-Empresa estadounidense de software de código abierto, fundada en 1993. Creadora de Red Hat Enterprise Linux (RHEL) y patrocinadora principal de [[fedora]]. Adquirida por IBM en 2019 por $34 mil millones.
+Empresa estadounidense de software de código abierto, fundada en 1993. Creadora de Red Hat Enterprise Linux (RHEL) y patrocinadora principal de [[fedora]]. Adquirida por IBM en 2019 por $34 mil millones. (instalacion_fedora_43, 2026)
 
 ## Productos principales
 

@@ -10,7 +10,7 @@ tags: [fedora, linux, instalación, configuración]
 
 # Primeros pasos con Fedora
 
-Pasos esenciales para configurar una instalación limpia de Fedora.
+Pasos esenciales para configurar una instalación limpia de Fedora. (instalacion_fedora_43, 2026)
 
 ## Actualización del sistema
 

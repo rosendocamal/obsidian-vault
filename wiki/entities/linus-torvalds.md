@@ -10,7 +10,7 @@ tags: [software, linux, codigo-abierto, sistemas-operativos]
 
 # Linus Torvalds
 
-Ingeniero de software finlandés (1969–). Creador del kernel de Linux (1991) y del sistema de control de versiones Git (2005). Su trabajo ha sido fundamental para el movimiento del software de código abierto.
+Ingeniero de software finlandés (1969–). Creador del kernel de Linux (1991) y del sistema de control de versiones Git (2005). Su trabajo ha sido fundamental para el movimiento del software de código abierto. (linux-os, 2026)
 
 ## Aportaciones clave
 

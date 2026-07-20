@@ -11,7 +11,7 @@ tags: [computacion, teoria-informacion, circuitos, logica]
 
 # Claude Shannon
 
-Ingeniero y matemático estadounidense (1916–2001). Demostró que el álgebra de Boole podía aplicarse al diseño de circuitos eléctricos y electrónicos, marcando el inicio de la teoría de la información y la computación moderna.
+Ingeniero y matemático estadounidense (1916–2001). Demostró que el álgebra de Boole podía aplicarse al diseño de circuitos eléctricos y electrónicos, marcando el inicio de la teoría de la información y la computación moderna. (algebra-de-boole, 2026)
 
 ## Aportaciones clave
 

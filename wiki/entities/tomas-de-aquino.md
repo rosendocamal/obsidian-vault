@@ -10,7 +10,7 @@ tags: [filósofo, teólogo, escolástica, libre albedrío, suma teológica]
 
 # Tomás de Aquino
 
-Filósofo y teólogo escolástico, citado en *Relación Nada-Maldad-Dios* para fundamentar la naturaleza del mal como defecto en la creación.
+Filósofo y teólogo escolástico, citado en *Relación Nada-Maldad-Dios* para fundamentar la naturaleza del mal como defecto en la creación. (relacion-nada-maldad-dios, 2024)
 
 ## Citación en los textos de Camal
 

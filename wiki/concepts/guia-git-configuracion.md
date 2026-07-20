@@ -10,7 +10,7 @@ tags: [git, github, ssh, configuracion]
 
 # Configurar Git y conectar con GitHub
 
-Pasos para configurar Git y conectar a GitHub mediante SSH, en un sistema Fedora (o cualquier Linux).
+Pasos para configurar Git y conectar a GitHub mediante SSH, en un sistema Fedora (o cualquier Linux). (configurar_git_conectar_github, 2026)
 
 ## Configuración de Git
 

@@ -11,7 +11,7 @@ tags: [matematicas, logica, computacion, algebra-booleana]
 
 # George Boole
 
-Matemático y lógico británico (1815–1864). Fundador del álgebra que lleva su nombre, estableció los fundamentos de la lógica simbólica moderna. Su obra *The Mathematical Analysis of Logic* (1847) y *An Investigation of the Laws of Thought* (1854) sentaron las bases para la computación digital.
+Matemático y lógico británico (1815–1864). Fundador del álgebra que lleva su nombre, estableció los fundamentos de la lógica simbólica moderna. Su obra *The Mathematical Analysis of Logic* (1847) y *An Investigation of the Laws of Thought* (1854) sentaron las bases para la computación digital. (algebra-de-boole, 2026)
 
 ## Aportaciones clave
 

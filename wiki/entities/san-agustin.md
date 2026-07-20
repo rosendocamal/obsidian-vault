@@ -12,7 +12,7 @@ tags: [filósofo, teólogo, padres de la Iglesia, teodicea, neoplatonismo]
 
 # San Agustín
 
-Padre de la Iglesia y filósofo cuyas ideas son citadas en tres de los cinco textos de Rosendo Camal. Es la autoridad teológica más referenciada en el corpus.
+Padre de la Iglesia y filósofo cuyas ideas son citadas en tres de los cinco textos de Rosendo Camal. Es la autoridad teológica más referenciada en el corpus. (relacion-nada-maldad-dios, 2024)
 
 ## Citas en los textos de Camal
 
@@ -32,6 +32,10 @@ San Agustín resolvió el problema del mal (Teodicea) con todo el conocimiento y
 San Agustín proporciona el marco para la tesis central de Camal: que la maldad es el conjunto vacío (∅) contenido en Dios (U), no una entidad activa. La resolución agustiniana del problema del mal se formaliza con la Teoría de Conjuntos.
 
 > **OPEN QUESTION** ¿Es la resolución agustiniana del mal compatible con la formalización conjuntista de Camal, o la metáfora del conjunto vacío introduce matices que Agustín no contempló?
+
+## Tensiones teológicas
+
+La tesis agustiniana de que la maldad es la ausencia del bien genera una tensión con la formalización conjuntista de Camal. Si la maldad es ∅ (conjunto vacío) y ∅ ⊆ U (Dios), entonces formalmente «la maldad forma parte de Dios». Esta afirmación contradice la tradición teológica arraigada, pero se justifica por la propiedad matemática del conjunto vacío. Ver: [[dios-nada-maldad-dios]] (CONTRADICTION) y [[perspectiva-dios-conjuntos]] (CONTRADICTION).
 
 ## Relación con otros conceptos
 

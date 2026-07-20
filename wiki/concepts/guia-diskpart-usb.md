@@ -4,13 +4,13 @@ type: concept
 created: 2026-07-17
 updated: 2026-07-17
 sources:
-  - raw/docs/diskpart_recuperación_unidad_usb.md
+  - raw/docs/diskpart_recuperacion_unidad_usb.md
 tags: [windows, diskpart, usb, recuperación]
 ---
 
 # Recuperar USB dañada con Diskpart
 
-Pasos para recuperar una unidad USB que no funciona usando la herramienta diskpart de Windows.
+Pasos para recuperar una unidad USB que no funciona usando la herramienta diskpart de Windows. (diskpart_recuperacion_unidad_usb, 2026)
 
 ## Proceso
 

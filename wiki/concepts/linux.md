@@ -10,7 +10,7 @@ tags: [linux, sistemas-operativos, codigo-abierto, software]
 
 # Linux
 
-Sistema operativo de código abierto creado por [[linus-torvalds]] en 1991. Domina en servidores web (>90%), es la base de Android, sistemas IoT y supercomputadoras.
+Sistema operativo de código abierto creado por [[linus-torvalds]] en 1991. Domina en servidores web (>90%), es la base de Android, sistemas IoT y supercomputadoras. (linux-os, 2026)
 
 ## Estructura en capas
 

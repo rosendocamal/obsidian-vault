@@ -9,7 +9,7 @@ tags: [herramienta, compresion, windows, propietario]
 
 # WinZip
 
-Programa de compresión de archivos propietario para Windows, lanzado en 1991. Fue uno de los primeros gestores de archivos ZIP para Windows y popularizó el formato .zip en el escritorio.
+Programa de compresión de archivos propietario para Windows, lanzado en 1991. Fue uno de los primeros gestores de archivos ZIP para Windows y popularizó el formato .zip en el escritorio. (usar_7z, 2026)
 
 ## Características
 

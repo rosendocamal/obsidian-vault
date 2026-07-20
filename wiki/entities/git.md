@@ -12,7 +12,7 @@ tags: [herramienta, control-versiones, vcs, colaboracion]
 
 # Git
 
-Sistema de control de versiones distribuido, creado por [[linus-torvalds]] en 2005. Permite rastrear cambios en archivos, coordinar trabajo entre múltiples personas y gestionar proyectos de software.
+Sistema de control de versiones distribuido, creado por [[linus-torvalds]] en 2005. Permite rastrear cambios en archivos, coordinar trabajo entre múltiples personas y gestionar proyectos de software. (configurar_git_conectar_github, 2026)
 
 ## Uso básico
 

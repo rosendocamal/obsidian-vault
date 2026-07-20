@@ -10,7 +10,7 @@ tags: [poo, python, programacion, objetos]
 
 # Programación Orientada a Objetos
 
-Paradigma de programación que organiza el código en "objetos" que representan entidades del mundo real. Cada objeto tiene atributos (datos) y métodos (comportamiento).
+Paradigma de programación que organiza el código en "objetos" que representan entidades del mundo real. Cada objeto tiene atributos (datos) y métodos (comportamiento). (rosendo-camal-evaluacion-final, 2026)
 
 ## Conceptos clave
 

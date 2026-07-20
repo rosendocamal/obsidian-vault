@@ -13,7 +13,7 @@ tags: [logica, computacion, algebra-booleana, circuitos]
 
 # Lógica Computacional
 
-Aplicación de principios lógicos (principalmente álgebra booleana) al diseño y funcionamiento de sistemas computacionales. Abarca desde compuertas lógicas hasta expresiones condicionales en programas.
+Aplicación de principios lógicos (principalmente álgebra booleana) al diseño y funcionamiento de sistemas computacionales. Abarca desde compuertas lógicas hasta expresiones condicionales en programas. (investigacion, 2026)
 
 ## Componentes
 

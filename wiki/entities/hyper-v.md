@@ -9,7 +9,7 @@ tags: [herramienta, virtualizacion, microsoft, windows]
 
 # Hyper-V
 
-Hipervisor de virtualización de [[microsoft]]. Disponible en Windows Server y Windows 10/11 Pro. Permite ejecutar máquinas virtuales en el sistema operativo Windows.
+Hipervisor de virtualización de [[microsoft]]. Disponible en Windows Server y Windows 10/11 Pro. Permite ejecutar máquinas virtuales en el sistema operativo Windows. (virtualbox_fedora_43, 2026)
 
 ## Características
 

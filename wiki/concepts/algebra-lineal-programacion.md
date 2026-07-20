@@ -11,7 +11,7 @@ tags: [algebra-lineal, programacion, python, matematicas-computacionales]
 
 # Álgebra Lineal y Programación
 
-Relación entre el álgebra lineal y la programación: ambas emplean variables con tipos de datos, estructuras para manejar múltiples valores (matrices, conjuntos, intervalos) y procesos sistemáticos para resolver problemas.
+Relación entre el álgebra lineal y la programación: ambas emplean variables con tipos de datos, estructuras para manejar múltiples valores (matrices, conjuntos, intervalos) y procesos sistemáticos para resolver problemas. (algebra-lineal-act1, 2026)
 
 ## Conexiones clave
 

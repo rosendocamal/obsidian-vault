@@ -9,7 +9,7 @@ tags: [herramienta, compresion, windows, propietario]
 
 # WinRAR
 
-Programa de compresión de archivos propietario para Windows, desarrollado por Alexander Roshal (1995). Soporta formatos RAR, ZIP y otros. Conocido por su modelo de "prueba gratuita indefinida" que se convirtió en un fenómeno cultural.
+Programa de compresión de archivos propietario para Windows, desarrollado por Alexander Roshal (1995). Soporta formatos RAR, ZIP y otros. Conocido por su modelo de "prueba gratuita indefinida" que se convirtió en un fenómeno cultural. (usar_7z, 2026)
 
 ## Características
 

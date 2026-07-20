@@ -10,7 +10,7 @@ tags: [programacion, lenguajes, computacion, mujer-ciencia]
 
 # Grace Hopper
 
-Científica computacional y contraalmirante estadounidense (1906–1992). Pionera de la programación, creadora del primer compilador y del lenguaje COBOL.
+Científica computacional y contraalmirante estadounidense (1906–1992). Pionera de la programación, creadora del primer compilador y del lenguaje COBOL. (linea-tiempo-lenguajes-programacion, 2026)
 
 ## Aportaciones clave
 

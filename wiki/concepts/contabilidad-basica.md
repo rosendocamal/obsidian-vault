@@ -12,7 +12,7 @@ tags: [contabilidad, finanzas, empresa, administracion]
 
 # Contabilidad Básica
 
-Disciplina que registra, clasifica, guarda y elabora reportes financieros de una entidad para la toma de decisiones. Su objetivo general es informar mediante documentos, cumplir normas legales y dar sustento a decisiones financieras.
+Disciplina que registra, clasifica, guarda y elabora reportes financieros de una entidad para la toma de decisiones. Su objetivo general es informar mediante documentos, cumplir normas legales y dar sustento a decisiones financieras. (cuentas-estado-resultados, 2026)
 
 ## Tipos de contabilidad
 

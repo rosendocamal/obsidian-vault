@@ -13,7 +13,7 @@ tags: [calculo, derivadas, funciones, matematicas]
 
 # Cálculo Diferencial
 
-Rama del cálculo que estudia las derivadas de funciones y sus aplicaciones. Analiza la tasa de cambio instantánea y la pendiente de curvas.
+Rama del cálculo que estudia las derivadas de funciones y sus aplicaciones. Analiza la tasa de cambio instantánea y la pendiente de curvas. (2025-01-26, 2026)
 
 ## Conceptos clave documentados
 

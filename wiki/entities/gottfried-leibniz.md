@@ -10,7 +10,7 @@ tags: [matematicas, filosofia, computacion, sistema-binario]
 
 # Gottfried Wilhelm Leibniz
 
-Filósofo, matemático y científico alemán (1646–1716). Pionero en la formalización del sistema binario moderno. Demostró que los cálculos aritméticos y operaciones lógicas podían realizarse más rápido usando solo dos símbolos.
+Filósofo, matemático y científico alemán (1646–1716). Pionero en la formalización del sistema binario moderno. Demostró que los cálculos aritméticos y operaciones lógicas podían realizarse más rápido usando solo dos símbolos. (antecedentes-y-origen-sistema-binario, 2026)
 
 ## Aportaciones clave
 

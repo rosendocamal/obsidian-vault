@@ -9,7 +9,9 @@ tags: [salud, economia, farmacia]
 
 ## Tesis central
 
-Un pastel es una dulce bomba de tiempo. Si se lograra revertir la diabetes o curar el cáncer, la industria alimenticia y farmacéutica se verían profundamente afectadas. La pregunta abierta es: ¿realmente se quiere la cura? Si la medicina siempre puede solucionarlo, la gente no se preocupa por la salud hasta que la pierde. La existencia de la cura desincentiva la prevención.
+«¿Qué es un pastel? Un momento de placer, un momento de alegría, un cumpleaños o un aniversario... Una dulce bomba de tiempo... Eso es, una mortal comida.» Si se lograra revertir la diabetes o curar el cáncer, la industria alimenticia y farmacéutica se verían profundamente afectadas. «Si hay cura para la diabetes como para el cáncer, la industria alimenticia seguirá como es actualmente.» (2026-06-19, 2026)
+
+> **OPEN QUESTION** ¿Si hay cura para diabetes y cáncer, la industria alimentaria y farmacéutica continuaría como es actualmente? ¿La existencia de la cura desincentiva la prevención?
 
 ## Relaciones con otras páginas
 

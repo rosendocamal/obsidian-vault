@@ -10,7 +10,7 @@ tags: [matematicas, logica, conjuntos, diagramas]
 
 # John Venn
 
-Matemático y lógico británico (1834–1923). Creó los diagramas de Venn en 1881, presentados en su obra *Symbolic Logic*. Su innovación simplificó los esquemas gráficos de [[leonhard-euler]] para representar relaciones lógicas entre conjuntos.
+Matemático y lógico británico (1834–1923). Creó los diagramas de Venn en 1881, presentados en su obra *Symbolic Logic*. Su innovación simplificó los esquemas gráficos de [[leonhard-euler]] para representar relaciones lógicas entre conjuntos. (diagramas-de-venn, 2026)
 
 ## Aportaciones clave
 

@@ -9,7 +9,7 @@ tags: [matematicas, computacion, arquitectura, juegos]
 
 # John von Neumann
 
-Matemático y físico húngaro-estadounidense (1903–1957).Contribuyó fundamentalmente a la matemática pura, la física cuántica, la teoría de juegos y la arquitectura de computadoras. La arquitectura von Neumann es la base de prácticamente todas las computadoras modernas.
+Matemático y físico húngaro-estadounidense (1903–1957). Contribuyó fundamentalmente a la matemática pura, la física cuántica, la teoría de juegos y la arquitectura de computadoras. La arquitectura von Neumann es la base de prácticamente todas las computadoras modernas. (investigacion, 2026)
 
 ## Aportaciones clave
 

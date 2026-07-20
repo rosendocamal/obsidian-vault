@@ -10,7 +10,7 @@ tags: [git, github, inicio, configuracion]
 
 # Nuevo repositorio en GitHub
 
-Pasos para crear y conectar un repositorio local con uno remoto en GitHub.
+Pasos para crear y conectar un repositorio local con uno remoto en GitHub. (new_repository_github, 2026)
 
 ## Flujo
 

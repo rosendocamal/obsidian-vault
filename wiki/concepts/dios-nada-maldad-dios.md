@@ -10,7 +10,7 @@ tags: [teología, teoría de conjuntos, nada, maldad, libre albedrío, teodicea]
 
 # La Nada, la Maldad y Dios como Conjuntos
 
-Análisis de la relación entre la nada (conjunto vacío ∅), la maldad y Dios (conjunto universal U) usando la Teoría de Conjuntos como marco formal.
+Análisis de la relación entre la nada (conjunto vacío ∅), la maldad y Dios (conjunto universal U) usando la Teoría de Conjuntos como marco formal. (relacion-nada-maldad-dios, 2026)
 
 ## Dios como conjunto universal
 

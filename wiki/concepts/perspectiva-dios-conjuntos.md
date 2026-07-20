@@ -10,7 +10,7 @@ tags: [teología, teoría de conjuntos, Dios, conjunto universal, panenteísmo]
 
 # Perspectiva de Dios mediante Teoría de Conjuntos
 
-Síntesis de la visión personal de Rosendo Camal sobre Dios usando la Teoría de Conjuntos como herramienta ilustrativa, reconociendo sus limitaciones y la ausencia de formación formal.
+Síntesis de la visión personal de Rosendo Camal sobre Dios usando la Teoría de Conjuntos como herramienta ilustrativa, reconociendo sus limitaciones y la ausencia de formación formal. (una-perspectiva-de-dios, 2026)
 
 ## Las matemáticas para todo y para nada
 
@@ -42,7 +42,7 @@ $$
 (=) \neq (\approx)
 $$
 
-> **OPEN QUESTION** ¿Puede la creación alcanzar la equivalencia (≡) con Dios, o la semejanza (∼) es el límite permanente?
+> **OPEN QUESTION** ¿Puede la creación alcanzar la equivalencia (≡) con Dios, o la semejanza (∼) es el límite permanente? Ver desarrollo en [[semejanza-divina]] y [[dios-como-pi]].
 
 ## La flor y la esencia
 

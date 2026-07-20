@@ -10,7 +10,7 @@ tags: [algoritmos, plan-estudio, programacion]
 ## Ruta de aprendizaje
 
 ### Ordenamiento y acceso
-Transitar desde Bubble Sort e Insertion Sort hacia métodos eficientes de división y conquista: Merge Sort, Quick Sort, Heap Sort, y la eficiencia lineal de Counting Sort.
+Transitar desde Bubble Sort e Insertion Sort hacia métodos eficientes de división y conquista: Merge Sort, Quick Sort, Heap Sort, y la eficiencia lineal de Counting Sort. (2026-07-10, 2026)
 
 ### Búsqueda
 Búsqueda Lineal ($O(n)$), Búsqueda Binaria ($O(\log n)$), Binary Search Trees.
@@ -26,7 +26,7 @@ Programación Dinámica (Top-Down, Bottom-Up), Voraces (Greedy), Backtracking.
 
 ## Estrategia pedagógica
 
-Integrar los algoritmos en proyectos reales o videojuegos: clon de Pac-Man (BFS/DFS/Dijkstra), generador de laberintos (Prim/Kruskal), resolvedor de Sudokus (Backtracking). Resolver un problema al día de LeetCode. Aplicar el truco de la caja negra: usar funciones nativas del lenguaje e investigar cómo funcionan internamente.
+Integrar los algoritmos en proyectos reales o videojuegos: clon de Pac-Man (BFS/DFS/Dijkstra), generador de laberintos (Prim/Kruskal), resolvedor de Sudokus (Backtracking). LeetCode como el «Wordle diario»: resolver un problema al día. Aplicar el truco de la «caja negra»: usar funciones nativas del lenguaje e investigar cómo funcionan internamente — la curiosidad es la herramienta.
 
 ## Relaciones con otras páginas
 

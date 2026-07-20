@@ -10,7 +10,7 @@ tags: [herramienta, virtualización, oráculo, codigo-abierto]
 
 # VirtualBox
 
-Programa de virtualización de código abierto, originalmente desarrollado por Innotek, posteriormente adquirido por Sun Microsystems y ahora por Oracle. Permite ejecutar sistemas operativos invitados dentro de un sistema anfitrión.
+Programa de virtualización de código abierto, originalmente desarrollado por Innotek, posteriormente adquirido por Sun Microsystems y ahora por Oracle. Permite ejecutar sistemas operativos invitados dentro de un sistema anfitrión. (virtualbox_fedora_43, 2026)
 
 ## Componentes clave
 

@@ -16,7 +16,7 @@ tags: [meta, indice, catalogo]
 | Source | Summary |
 |--------|---------|
 | [configurar_git_conectar_github](../raw/docs/configurar_git_conectar_github.md) | Configurar Git y conectar con GitHub |
-| [diskpart_recuperación_unidad_usb](../raw/docs/diskpart_recuperación_unidad_usb.md) | Recuperación de unidad USB con diskpart |
+| [diskpart_recuperacion_unidad_usb](../raw/docs/diskpart_recuperacion_unidad_usb.md) | Recuperación de unidad USB con diskpart |
 | [eliminar_archivo_commit_git](../raw/docs/eliminar_archivo_commit_git.md) | Eliminar archivo de un commit en Git |
 | [instalacion_fedora_43](../raw/docs/instalacion_fedora_43.md) | Guía de instalación y configuración de Fedora 43 |
 | [new_repository_github](../raw/docs/new_repository_github.md) | Crear nuevo repositorio en GitHub |
@@ -141,7 +141,7 @@ tags: [meta, indice, catalogo]
 | [guia-fedora-primeros-pasos](concepts/guia-fedora-primeros-pasos.md) | Actualización, programas, TLP, cifrado en Fedora | instalacion_fedora_43 |
 | [guia-virtualbox-fedora](concepts/guia-virtualbox-fedora.md) | Instalación VirtualBox en Fedora con firma de módulos | virtualbox_fedora_43 |
 | [guia-7z-cifrado-compresion](concepts/guia-7z-cifrado-compresion.md) | Compresión y cifrado avanzado con 7z | usar_7z |
-| [guia-diskpart-usb](concepts/guia-diskpart-usb.md) | Recuperar USB dañada con Diskpart en Windows | diskpart_recuperación_unidad_usb |
+| [guia-diskpart-usb](concepts/guia-diskpart-usb.md) | Recuperar USB dañada con Diskpart en Windows | diskpart_recuperacion_unidad_usb |
 | *De raw/journal (reflexiones personales)* | | |
 | [reflexion-identidad-eternidad](concepts/reflexion-identidad-eternidad.md) | Identidad, eternidad, paternidad, soledad | 2026-03-20 |
 | [aprendizaje-vs-entretenimiento](concepts/aprendizaje-vs-entretenimiento.md) | Aprendizaje real vs. entretenimiento (Karpathy) | 2026-06-10 |

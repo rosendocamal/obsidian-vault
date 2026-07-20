@@ -10,7 +10,7 @@ tags: [hardware, computacion, cpu, memoria, circuitos]
 
 # Hardware de Computación
 
-Componentes físicos de un sistema informático. Incluye circuitos lógicos, procesador, memoria y dispositivos de entrada/salida. El hardware es el soporte físico donde se ejecuta el software.
+Componentes físicos de un sistema informático. Incluye circuitos lógicos, procesador, memoria y dispositivos de entrada/salida. El hardware es el soporte físico donde se ejecuta el software. (investigacion, 2026)
 
 ## Componentes principales
 

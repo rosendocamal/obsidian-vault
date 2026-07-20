@@ -11,7 +11,7 @@ tags: [teología, matemáticas, π, analogía, infinito, divino]
 
 # Dios como π — Analogía Matemática
 
-Analogía central de la teología personal de Rosendo Camal: Dios se representa como π y los seres humanos como sus aproximaciones (3.14, 3.1416).
+Analogía central de la teología personal de Rosendo Camal: Dios se representa como π y los seres humanos como sus aproximaciones (3.14, 3.1416). (una-perspectiva-de-dios, 2026)
 
 ## Definición de la analogía
 

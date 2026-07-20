@@ -15,7 +15,7 @@ tags: [calculo, integrales, matematicas, derivadas]
 
 # Cálculo Integral
 
-Rama del cálculo que estudia la integración de funciones. El proceso inverso a la derivación (antiderivada). Permite calcular áreas bajo curvas, volúmenes, y acumulación de cantidades.
+Rama del cálculo que estudia la integración de funciones. El proceso inverso a la derivación (antiderivada). Permite calcular áreas bajo curvas, volúmenes, y acumulación de cantidades. (tarea_4, 2026)
 
 ## Integrales inmediatas
 

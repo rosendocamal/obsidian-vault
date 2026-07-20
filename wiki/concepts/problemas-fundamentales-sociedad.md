@@ -9,7 +9,7 @@ tags: [sociedad, filosofia, problemas]
 
 ## Tesis
 
-Los grandes problemas del siglo XXI (IA, automatización, cambio climático, brechas sociales) son distracciones. No son los desafíos a resolver, sino máscaras. Los verdaderos problemas siguen siendo los mismos de siempre en lo fundamental y subyacente: el hambre, la efímera vida, el mal.
+Los grandes problemas del siglo XXI (IA, automatización, cambio climático, brechas sociales) son distracciones. No son los desafíos a resolver, sino máscaras. Los verdaderos problemas siguen siendo los mismos de siempre en lo fundamental y subyacente: el hambre, la efímera vida, el mal. (2026-06-18, 2026)
 
 ## Lo invariante
 

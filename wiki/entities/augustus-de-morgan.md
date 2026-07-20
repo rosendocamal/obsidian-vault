@@ -9,7 +9,7 @@ tags: [matematicas, logica, algebra-booleana]
 
 # Augustus De Morgan
 
-Matemático y lógico británico (1806–1871). Formalizó las leyes de la dualidad en lógica proposicional, conocidas como Leyes de Morgan, que son fundamentales en el álgebra booleana y la simplificación de circuitos digitales.
+Matemático y lógico británico (1806–1871). Formalizó las leyes de la dualidad en lógica proposicional, conocidas como Leyes de Morgan, que son fundamentales en el álgebra booleana y la simplificación de circuitos digitales. (algebra-de-boole, 2026)
 
 ## Aportaciones clave
 

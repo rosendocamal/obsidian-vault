@@ -10,7 +10,7 @@ tags: [git, seguridad, recuperación]
 
 # Eliminar archivo de un commit en Git
 
-Procedimiento para eliminar un archivo subido indebidamente a un repositorio de GitHub, y limpiar el historial.
+Procedimiento para eliminar un archivo subido indebidamente a un repositorio de GitHub, y limpiar el historial. (eliminar_archivo_commit_git, 2026)
 
 ## Restricciones
 

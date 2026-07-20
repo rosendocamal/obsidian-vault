@@ -111,3 +111,21 @@ tags: [meta, changelog, historial]
 - **STATE.md**: Actualizado con snapshot completo
 - Total raw sources: 73 (+2 coursera/santander)
 - Total wiki pages: 32 entities + 42 concepts + 21 sources + 1 log + 1 state = 97 páginas wiki
+
+## [2026-07-20] cleanup | Conformidad completa con schema
+
+- **Citas inline**: Agregadas `(Source, YYYY)` a las 32 entity pages y 42 concept pages que carecían de ellas
+- **Renombrado**: `diskpart_recuperación_unidad_usb.md` → `diskpart_recuperacion_unidad_usb.md` (ASCII) + actualizadas todas las referencias
+- **Voz del autor restaurada** en 5 páginas:
+  - `fundamentos-conocimiento.md`: Referencias a Dijkstra, Tao, «somos imperfectos y tontos inteligentes», «la ciencia es la nueva religión»
+  - `critica-prensa.md`: «ministerio de la verdad» (Orwell), «ni San Pedro se arriesgó tanto»
+  - `reflexion-identidad-eternidad.md`: Refrán «Pena mía», Fernando Lázaro Carreter, «No hay ningún bienaventurado que llore»
+  - `plan-algoritmia.md`: LeetCode como «Wordle diario», «caja negra» como curiosidad
+  - `salud-y-economia-farmaceutica.md`: Apertura conversacional sobre el pastel
+- **OPEN QUESTIONs señalados** en 3 páginas:
+  - `reflexion-identidad-eternidad.md`: «¿Quién posee el derecho de decidir quién es padre?»
+  - `salud-y-economia-farmaceutica.md`: «¿Si hay cura para diabetes y cáncer, la industria continuaría?»
+  - `teoria-conjuntos-teologia.md`: «¿Qué pasa si Dios dejara de ser bondad?»
+- **Cross-link teológico**: `san-agustin.md` ahora enlaza las CONTRADICTION de `dios-nada-maldad-dios.md` y `perspectiva-dios-conjuntos.md`
+- **OPEN QUESTION consolidado**: `perspectiva-dios-conjuntos.md` ahora referencia `semejanza-divina` y `dios-como-pi`
+- Total páginas con citas: 74 de 74 (100%)

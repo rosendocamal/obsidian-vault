@@ -12,7 +12,7 @@ tags: [teología, matemáticas, analogía, π, números irracionales, Teoría de
 
 # Analogía Matemática en Teología
 
-Concepto transversal que integra las tres fuentes teológicas de Rosendo Camal: el uso de herramientas matemáticas (π, Teoría de Conjuntos, lógica formal) como medio para ilustrar y comprender la relación entre Dios y la creación.
+Concepto transversal que integra las tres fuentes teológicas de Rosendo Camal: el uso de herramientas matemáticas (π, Teoría de Conjuntos, lógica formal) como medio para ilustrar y comprender la relación entre Dios y la creación. (una-perspectiva-de-dios, 2026)
 
 ## Principios de la analogía
 

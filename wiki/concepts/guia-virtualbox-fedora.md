@@ -10,7 +10,7 @@ tags: [virtualbox, fedora, virtualización]
 
 # Instalar VirtualBox en Fedora
 
-Pasos para instalar VirtualBox en Fedora, con soporte completo para Secure Boot.
+Pasos para instalar VirtualBox en Fedora, con soporte completo para Secure Boot. (virtualbox_fedora_43, 2026)
 
 ## 1. Instalar dependencias
 

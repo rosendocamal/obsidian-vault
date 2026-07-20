@@ -10,7 +10,7 @@ tags: [lenguajes, programacion, historia-computacion]
 
 # Línea del Tiempo de los Lenguajes de Programación
 
-Evolución cronológica de los lenguajes de programación desde la década de 1940 hasta la actualidad.
+Evolución cronológica de los lenguajes de programación desde la década de 1940 hasta la actualidad. (linea-tiempo-lenguajes-programacion, 2026)
 
 ## Hitos principales
 

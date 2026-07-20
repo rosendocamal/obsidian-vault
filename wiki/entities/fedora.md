@@ -12,7 +12,7 @@ tags: [linux, distribucion, sistema-operativo, codigo-abierto]
 
 # Fedora Linux
 
-Distribución de [[linux]] patrocinada por Red Hat (ahora IBM). Conocida por su enfoque en la innovación y el software reciente. Es una de las distribuciones más populares para escritorio y desarrollo.
+Distribución de [[linux]] patrocinada por Red Hat (ahora IBM). Conocida por su enfoque en la innovación y el software reciente. Es una de las distribuciones más populares para escritorio y desarrollo. (instalacion_fedora_43, 2026)
 
 ## Características
 

@@ -13,7 +13,7 @@ tags: [administracion, empresa, cultura-organizacional, estrategia]
 
 # Cultura Empresarial
 
-Conjunto de valores, prácticas, estructuras y estrategias que definen a una organización. Incluye el análisis de casos reales, el mapeo organizacional y las herramientas de diagnóstico estratégico.
+Conjunto de valores, prácticas, estructuras y estrategias que definen a una organización. Incluye el análisis de casos reales, el mapeo organizacional y las herramientas de diagnóstico estratégico. (analisis-foda, 2026)
 
 ## Casos de estudio
 

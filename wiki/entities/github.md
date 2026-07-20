@@ -9,7 +9,7 @@ tags: [herramienta, control-versiones, colaboracion, plataforma]
 
 # GitHub
 
-Plataforma de desarrollo colaborativo basada en [[git]]. Adquirida por [[microsoft]] en 2018. Permite alojar repositorios, gestionar issues, pull requests y CI/CD. Es la plataforma de código abierto más grande del mundo.
+Plataforma de desarrollo colaborativo basada en [[git]]. Adquirida por [[microsoft]] en 2018. Permite alojar repositorios, gestionar issues, pull requests y CI/CD. Es la plataforma de código abierto más grande del mundo. (configurar_git_conectar_github, 2026)
 
 ## Funcionalidades clave
 

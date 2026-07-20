@@ -10,7 +10,7 @@ tags: [programacion, lenguajes, c, unix, computacion]
 
 # Dennis Ritchie
 
-Científico computacional estadounidense (1941–2011). Creó el lenguaje de programación C (1972) y co-creó el sistema operativo UNIX en Bell Labs.
+Científico computacional estadounidense (1941–2011). Creó el lenguaje de programación C (1972) y co-creó el sistema operativo UNIX en Bell Labs. (linea-tiempo-lenguajes-programacion, 2026)
 
 ## Aportaciones clave
 

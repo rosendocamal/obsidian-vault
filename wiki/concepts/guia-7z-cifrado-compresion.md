@@ -10,7 +10,7 @@ tags: [compresión, cifrado, 7z, linux]
 
 # Compresión y cifrado con 7z
 
-Uso avanzado de 7-Zip para compresión y cifrado de archivos desde la línea de comandos.
+Uso avanzado de 7-Zip para compresión y cifrado de archivos desde la línea de comandos. (usar_7z, 2026)
 
 ## Comando optimizado
 

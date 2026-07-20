@@ -9,7 +9,7 @@ tags: [programacion, lenguajes, fortran, compiladores]
 
 # John Backus
 
-Informático estadounidense (1924–2007). Líder del equipo que creó FORTRAN (1957), el primer lenguaje de programación de alto nivel ampliamente utilizado. Recibió el Premio Turing en 1977 por sus contribuciones a la diseñ de lenguajes de alto nivel.
+Informático estadounidense (1924–2007). Líder del equipo que creó FORTRAN (1957), el primer lenguaje de programación de alto nivel ampliamente utilizado. Recibió el Premio Turing en 1977 por sus contribuciones a la diseñ de lenguajes de alto nivel. (linea-tiempo-lenguajes-programacion, 2026)
 
 ## Aportaciones clave
 

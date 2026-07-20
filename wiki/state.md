@@ -14,7 +14,7 @@ tags: [meta, estado, vault]
 ## Última actualización
 
 - **Fecha:** 2026-07-19
-- **Commit:** `pending` — Limpieza completa: frontmatter, sources, entities, wikilinks
+- **Commit:** `pending` — Conformidad completa: citas, voz del autor, open questions
 
 ## Raw Sources
 
@@ -46,7 +46,6 @@ tags: [meta, estado, vault]
 ## Pending
 
 - [ ] Generate overview/synthesis page (`wiki/overview/`)
-- [ ] Lint wikilinks (verificar que todos los wikilinks resuelvan)
 - [ ] Archive user queries when asked (`wiki/queries/`)
 
 ## Relaciones
@@ -56,16 +55,12 @@ tags: [meta, estado, vault]
 
 ## Changes This Session
 
-1. Fixed broken frontmatter in `guia-virtualbox-fedora.md` and `guia-fedora-primeros-pasos.md`
-2. Renamed `source:` → `sources:` in 11 source pages
-3. Removed 4 duplicate entity rows from `index.md`
-4. Added `state.md` to index.md Log section
-5. Created 14 new entity pages (De Morgan, GitHub, Red Hat, GNU, Microsoft, Apple, Stroustrup, Backus, McCarthy, von Neumann, VMware, Hyper-V, WinRAR, WinZip)
-6. Created 1 new concept page (cultura-organizacional)
-7. Created 2 new source pages (coursera ofimática, proteccion datos)
-8. Rewrote 3 broken wikilinks (`diagramas-de-venn` → `john-venn`, `ayuda_algoritmos` → `fundamentos-programacion`)
-9. Added wikilinks to 4 files with <2 links
-10. Updated `index.md` counts and entries
+1. Added inline citations `(Source, YYYY)` to all 74 entity + concept pages
+2. Renamed `diskpart_recuperación_unidad_usb.md` to ASCII + updated all references
+3. Restored author's voice in 5 pages (fundamentos-conocimiento, critica-prensa, reflexion-identidad-eternidad, plan-algoritmia, salud-y-economia-farmaceutica)
+4. Flagged 3 OPEN QUESTIONs from raw sources (paternidad, salud-farmaceutica, teología)
+5. Added cross-reference to theological contradictions in san-agustin.md
+6. Consolidated duplicate OPEN QUESTION with cross-reference to semejanza-divina + dios-como-pi
 
 ## Instructions for Next Session
 

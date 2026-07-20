@@ -9,7 +9,7 @@ tags: [administracion, organizaciones, cultura, empresas]
 
 # Cultura Organizacional
 
-Conjunto de valores, creencias, normas y prácticas compartidas que definen el comportamiento dentro de una organización. Influye en la motivación, productividad y cohesión del equipo.
+Conjunto de valores, creencias, normas y prácticas compartidas que definen el comportamiento dentro de una organización. Influye en la motivación, productividad y cohesión del equipo. (cultura-empresarial, 2026)
 
 ## Componentes
 

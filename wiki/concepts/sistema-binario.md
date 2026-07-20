@@ -12,7 +12,7 @@ tags: [sistemas-numericos, computacion, binario, logica]
 
 # Sistema Binario
 
-Sistema numérico que utiliza solo dos símbolos (0 y 1) para representar cualquier información. Es la base fundamental de la computación digital, pues los circuitos electrónicos pueden representar estos dos estados como apagado/encendido.
+Sistema numérico que utiliza solo dos símbolos (0 y 1) para representar cualquier información. Es la base fundamental de la computación digital, pues los circuitos electrónicos pueden representar estos dos estados como apagado/encendido. (algoritmos-booth-multiplicacion-division, 2026)
 
 ## Historia
 

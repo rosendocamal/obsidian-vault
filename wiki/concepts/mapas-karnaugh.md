@@ -10,7 +10,7 @@ tags: [logica, circuitos, simplificacion, algebra-booleana]
 
 # Mapas de Karnaugh
 
-Procedimiento gráfico para simplificar funciones booleanas. Organiza las combinaciones de variables en una cuadrícula siguiendo el código Gray, permitiendo identificar agrupaciones de valores adyacentes para obtener expresiones más compactas.
+Procedimiento gráfico para simplificar funciones booleanas. Organiza las combinaciones de variables en una cuadrícula siguiendo el código Gray, permitiendo identificar agrupaciones de valores adyacentes para obtener expresiones más compactas. (mapas-de-karnaugh, 2026)
 
 ## Principios clave
 

@@ -9,7 +9,7 @@ tags: [aprendizaje, entretenimiento, karpathy]
 
 ## Tesis principal (Karpathy)
 
-Muchos videos en YouTube/TikTok dan la apariencia de educar, pero son solo entretenimiento. Esto es conveniente para todos: quienes los ven se sienten como si estuvieran aprendiendo, pero solo se están divirtiendo (Karpathy, 2026). Están a un épsilon de ver The Bachelorette. Es como las papitas Garden Veggie Straws: parecen saludables hasta que miras los ingredientes.
+Muchos videos en YouTube/TikTok dan la apariencia de educar, pero son solo entretenimiento. Esto es conveniente para todos: quienes los ven se sienten como si estuvieran aprendiendo, pero solo se están divirtiendo (Karpathy, 2026). Están a un épsilon de ver The Bachelorette. Es como las papitas Garden Veggie Straws: parecen saludables hasta que miras los ingredientes. (2026-06-10, 2026)
 
 ## La incomodidad que significa aprender
 

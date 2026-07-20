@@ -10,11 +10,11 @@ tags: [prensa, corrupción, Playa del Carmen, medioambiente social, periodismo]
 
 # Crítica a la Prensa
 
-Análisis crítico de la cobertura periodística de un operativo policial en Playa del Carmen, que pone en evidencia las deficiencias del periodismo local y su relación con el poder político.
+Análisis crítico de la cobertura periodística de un operativo policial en Playa del Carmen, que pone en evidencia las deficiencias del periodismo local y su relación con el poder político. (extra_extra_la_prensa_en_inaccion, 2026)
 
 ## Contexto
 
-Playa del Carmen, apodada coloquialmente "Playa del Crimen", enfrenta un operativo policial masivo contra habitantes de una colonia con terrenos sin certeza jurídica. Los vecinos se defendieron con machetes, piedras, bombas caseras y un cilindro de gas (Rosendo Camal, 2026).
+Playa del Carmen, apodada coloquialmente "Playa del Crimen", enfrenta un operativo policial masivo contra habitantes de una colonia con terrenos sin certeza jurídica. Los vecinos se defendieron con machetes, piedras, bombas caseras y un cilindro de gas. «Les entrego el chisme en bandeja de plomo porque el de oro lo empeñé y el de plata fue confiscado por el ministerio de la verdad» (Rosendo Camal, 2026).
 
 ## Deficiencias periodísticas
 
@@ -27,7 +27,7 @@ Playa del Carmen, apodada coloquialmente "Playa del Crimen", enfrenta un operati
 
 ## Pan y circo
 
-Al día siguiente del operativo, se organizó un campeonato de fútbol en la unidad deportiva de la colonia, como distracción del conflicto. "El pasado es el entrenamiento, somos unos ingenuos" (Rosendo Camal, 2026).
+Al día siguiente del operativo, se organizó un campeonato de fútbol en la unidad deportiva de la colonia, como distracción del conflicto. «¡Bachilleratos y universidades con sus talentos menos capacitados se enlistaron!» "El pasado es el entrenamiento, somos unos ingenuos. Una medalla de honor para el instituto del deporte por tal hazaña arriesgada, ni San Pedro se arriesgó tanto al desconocer al Señor tres veces." (Rosendo Camal, 2026).
 
 ## Relación con otros conceptos
 

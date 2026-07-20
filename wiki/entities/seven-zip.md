@@ -10,7 +10,7 @@ tags: [herramienta, compresión, cifrado, linux]
 
 # 7-Zip (7z)
 
-Programa de compresión de archivos libre y de código abierto. Soporta múltiples formatos (7z, ZIP, TAR, GZIP, BZIP2, etc.) y ofrece un algoritmo de compresión robusto con cifrado AES-256.
+Programa de compresión de archivos libre y de código abierto. Soporta múltiples formatos (7z, ZIP, TAR, GZIP, BZIP2, etc.) y ofrece un algoritmo de compresión robusto con cifrado AES-256. (usar_7z, 2026)
 
 ## Parámetros de compresión avanzada
 
