@@ -3,7 +3,7 @@ title: "Coursera Santander — Curso de ofimática"
 type: source
 created: 2026-07-19
 updated: 2026-07-19
-sources: [raw/courses/coursera-santander/curso_ofimática.md]
+sources: [raw/courses/coursera-santander/curso_ofimatica.md]
 tags: [coursera, ofimatica, microsoft-office, notas]
 ---
 
