@@ -129,3 +129,15 @@ tags: [meta, changelog, historial]
 - **Cross-link teológico**: `san-agustin.md` ahora enlaza las CONTRADICTION de `dios-nada-maldad-dios.md` y `perspectiva-dios-conjuntos.md`
 - **OPEN QUESTION consolidado**: `perspectiva-dios-conjuntos.md` ahora referencia `semejanza-divina` y `dios-como-pi`
 - Total páginas con citas: 74 de 74 (100%)
+
+## [2026-07-21] ingest | Ingest raw/courses/capacitate-para-el-empleo/
+
+- Leído `especialidad_tratamientos_datos.md` (59 líneas): diplomado "Técnico en Big Data" de Capacítate para el empleo
+- Creados 2 concept pages:
+  - `osint-busqueda-informacion.md`: rol Finder, OSINT, motores de búsqueda, seguridad, ética, freelance, metadatos
+  - `bases-datos-normalizacion.md`: rol Curador, modelo ER, normalización (1NF/2NF/3NF), cardinalidad, visualización
+- Creada 1 source page: `fuente-curso-capacitate-empleo.md`
+- Actualizado `wiki/index.md`: +2 concepts, +1 source, +1 course row
+- Cross-links: osint ↔ bases-datos, ambos ↔ fundamentos-programacion, linux, hardware-computacion, contabilidad-basica, analisis-foda
+- Total raw sources: 74 (+1)
+- Total wiki pages: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki

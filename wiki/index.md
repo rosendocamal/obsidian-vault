@@ -58,6 +58,7 @@ tags: [meta, indice, catalogo]
 | [investigacion-operaciones](../raw/courses/investigacion-operaciones/) | 2     | 3°           | Introducción a IO                                             | [fuente-curso-investigacion-operaciones](sources/fuente-curso-investigacion-operaciones.md) |
 | [matematicas-discretas](../raw/courses/matematicas-discretas/)         | 9     | 1°           | Álgebra Boole, Karnaugh, teoría de grafos, sistemas numéricos | [fuente-curso-matematicas-discretas](sources/fuente-curso-matematicas-discretas.md)         |
 | [poo](../raw/courses/poo/)                                             | 1     | 1°           | Evaluación final POO (Python)                                 | [fuente-curso-poo](sources/fuente-curso-poo.md)                                             |
+| [capacitate-para-el-empleo](../raw/courses/capacitate-para-el-empleo/) | 1     | —            | Especialidad en Tratamientos de Datos: Finder y Curador       | [fuente-curso-capacitate-empleo](sources/fuente-curso-capacitate-empleo.md)                 |
 
 ## Wiki Pages
 
@@ -134,6 +135,8 @@ tags: [meta, indice, catalogo]
 | [investigacion-operaciones](concepts/investigacion-operaciones.md) | IO, optimización, heurísticas, origen en WWII | investigacion-operaciones |
 | [programacion-orientada-objetos](concepts/programacion-orientada-objetos.md) | POO, Python, clases, objetos, propiedades | poo |
 | [linea-tiempo-lenguajes-programacion](concepts/linea-tiempo-lenguajes-programacion.md) | Historia de lenguajes de programación (1940s–2014) | fundamentos-programacion |
+| [osint-busqueda-informacion](concepts/osint-busqueda-informacion.md) | OSINT, Finder, motores de búsqueda, seguridad, freelance | capacitate-para-el-empleo |
+| [bases-datos-normalizacion](concepts/bases-datos-normalizacion.md) | Modelo ER, normalización (1NF/2NF/3NF), cardinalidad, visualización | capacitate-para-el-empleo |
 | *De raw/docs (guías técnicas)* | | |
 | [guia-git-configuracion](concepts/guia-git-configuracion.md) | Configurar Git y conectar SSH a GitHub | configurar_git_conectar_github |
 | [guia-git-eliminar-archivo](concepts/guia-git-eliminar-archivo.md) | Eliminar archivo del último commit y limpiar historial | eliminar_archivo_commit_git |
@@ -172,6 +175,7 @@ tags: [meta, indice, catalogo]
 | [fuente-curso-poo](sources/fuente-curso-poo.md) | POO: Python, evaluación final, propiedades |
 | [fuente-curso-ofimatica](sources/fuente-curso-ofimatica.md) | Coursera Santander: ofimática, Microsoft Office |
 | [fuente-curso-proteccion-datos](sources/fuente-curso-proteccion-datos.md) | Coursera Santander: protección de datos y privacidad |
+| [fuente-curso-capacitate-empleo](sources/fuente-curso-capacitate-empleo.md) | Capacítate para el empleo: Finder y Curador de datos |
 | *De raw/docs* | |
 | [fuente-tech-guides](sources/fuente-tech-guides.md) | 7 guías técnicas: Git, Fedora, VirtualBox, 7z, Diskpart |
 | *De raw/journal* | |
