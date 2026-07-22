@@ -4,6 +4,8 @@ type: source
 created: 2026-07-21
 updated: 2026-07-21
 sources: [raw/courses/capacitate-para-el-empleo/especialidad_tratamientos_datos.md]
+inicio: 2026-07-21
+fin:
 tags: [capacitate-para-el-empleo, big-data, finder, curador-datos, bases-datos]
 ---
 

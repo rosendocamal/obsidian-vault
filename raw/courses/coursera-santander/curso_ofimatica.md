@@ -1,3 +1,10 @@
+---
+title: "Curso de Coursera con Santander de Microsoft Office"
+course: "Coursera Santander"
+inicio: 2026-07-17
+fin:
+---
+
 # Curso de Coursera con Santander de Microsoft Office
 
 Aquí anotaré lo que no sabía de la paquetería y lo que me sea útil, mientras tanto me la estoy pasando bien porque no estoy aprendiendo mucho. Anotaré en el orden aprendido o descubierto.

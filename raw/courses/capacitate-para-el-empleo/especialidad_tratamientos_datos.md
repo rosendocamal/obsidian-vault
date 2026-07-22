@@ -1,5 +1,11 @@
-# Especialidad en Tratamientos de Datos
 ---
+title: "Especialidad en Tratamientos de Datos"
+course: "Capacítate para el empleo"
+inicio: 2026-07-21
+fin:
+---
+
+# Especialidad en Tratamientos de Datos
 
 ## Diplomado en Técnico en Big Data
 
@@ -57,3 +63,4 @@
 - **Arreglo de datos**: presentación de datos, tablas dinámicas (o pivotales), gráfico dinámico (forma gráfica de representar los datos de una tabla dinámica).
 - **Presentación de informes**: Las tablas deben tener título, columna matriz (la  que clasifica los datos), el encabezado en cada columna, cifras, pie de notas. Las gráficas deben tener título en mayúsculas, indicar un periodo de tiempo delimitado, unidades de medidas, cuerpo (el gráfico debe tener colores que permitan distiguir la información) sin colores similares ni fosforescentes ni los ejes con abreviaturas y los colores deben tener su leyenda, el pie del gráfico. 
 - **Tipos de gráficos**: **Gráficas de barras** para comparar elementos simples entre sí, **Gráfica vertical compuesta** para comparar elementos relacionados con 2 o más variables, **Gráfica horizontal** para cuando los textos de las categorías son muy grandes o las columnas son muy grandes, **Gráfica superpuesta** para comparar magnitudes de dos o más variables (pueden ser horizontales o verticales), **Gráfica lineal simple** para ver el comportamiento de una variable en un periodo de tiempo, **Gráfica de línea múltiple** para ver el comportamiento de varias variables en un periodo de tiempo y **Gráfica circular** para ver el impacto de varios elementos sobre un total y se representa en porcentaje.
+- 

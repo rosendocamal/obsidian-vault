@@ -4,6 +4,8 @@ type: source
 created: 2026-07-19
 updated: 2026-07-19
 sources: [raw/courses/coursera-santander/curso_ofimatica.md]
+inicio: 2026-07-17
+fin:
 tags: [coursera, ofimatica, microsoft-office, notas]
 ---
 
