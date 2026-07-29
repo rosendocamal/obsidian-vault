@@ -196,6 +196,8 @@ tags: [meta, indice, catalogo]
 
 ### Overview
 
-*No hay síntesis general aún. Ingestar al menos 3 fuentes para generar.*
+| Page | Description |
+|------|-------------|
+| [sintesis-general](overview/sintesis-general.md) | Síntesis general del vault: 4 dominios (teología matemática, ingeniería, reflexión social, dominio técnico) y hilos transversales |
 
-*(Total: 56 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 74 fuentes raw | Wiki: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki)*
+*(Total: 56 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 74 fuentes raw | Wiki: 32 entities + 44 concepts + 22 sources + 1 overview + 1 log + 1 state = 101 páginas wiki)*

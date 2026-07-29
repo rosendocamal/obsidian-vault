@@ -158,3 +158,12 @@ tags: [meta, changelog, historial]
 - Agregado post-commit checklist a state.md para evitar desincronización futura
 - Total raw sources: 74 (sin cambios)
 - Total wiki pages: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki
+
+## [2026-07-29] overview | Síntesis general + lint wikilinks final
+
+- **Wikilink lint**: 466 wikilinks revisados, 0 broken activos
+- **Overview**: creada `wiki/overview/sintesis-general.md` — 4 dominios (teología matemática, ingeniería, reflexión social, dominio técnico)
+- **index.md**: agregada sección Overview; conteo actualizado a 101 páginas
+- **state.md**: actualizado con +1 overview page
+- Total raw sources: 74 (sin cambios)
+- Total wiki pages: 32 entities + 44 concepts + 22 sources + 1 overview + 1 log + 1 state = 101 páginas wiki

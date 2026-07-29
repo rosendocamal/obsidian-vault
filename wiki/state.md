@@ -14,7 +14,7 @@ tags: [meta, estado, vault]
 ## Última actualización
 
 - **Fecha:** 2026-07-29
-- **Commit:** `47bf0d5` — docs: notas de Excel en curso_ofimatica | fix: sync conteos
+- **Commit:** `pending` — fix: actualiza commit hash en state.md | overview + lint
 
 ## Raw Sources
 
@@ -34,8 +34,8 @@ tags: [meta, estado, vault]
 | `concepts/` | 44 | 8 teológicos + 24 cursos + 7 guías docs + 5 reflexiones journal |
 | `sources/` | 22 | 5 texts + 13 courses + 1 docs + 3 journal |
 | `queries/` | 0 | *(vacíos)* |
-| `overview/` | 0 | *(vacíos)* |
-| **Páginas** | **100** | *(32 entities + 44 concepts + 22 sources + 1 log + 1 state)* |
+| `overview/` | 1 | sintesis-general (síntesis de 4 dominios: teología matemática, ingeniería, reflexión social, dominio técnico) |
+| **Páginas** | **101** | *(32 entities + 44 concepts + 22 sources + 1 overview + 1 log + 1 state)* |
 
 ## Git
 
