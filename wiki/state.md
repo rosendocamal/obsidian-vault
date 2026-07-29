@@ -14,7 +14,7 @@ tags: [meta, estado, vault]
 ## Última actualización
 
 - **Fecha:** 2026-07-29
-- **Commit:** `6b0816d` — metadata: frontmatter YAML en raw sources + sync en wiki source pages
+- **Commit:** `47bf0d5` — docs: notas de Excel en curso_ofimatica | fix: sync conteos
 
 ## Raw Sources
 
