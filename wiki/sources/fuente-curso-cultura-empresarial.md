@@ -10,7 +10,7 @@ tags: [administracion, cultura-empresarial, estrategia]
 # Curso: Cultura Empresarial
 
 - **Semestre**: 2°
-- **Archivos**: 5 (analisis-foda.md, caso-grupoxcaret.md, analisis-de-caso.md, mapeo-organizacional.md, examen-cultura1.md)
+- **Archivos**: 5 (analisis-foda.md, caso-grupoxcaret.md, analisis-de-caso.md, mapeo-organizacional-de-la-universida-1.md, examen-cultura1.md)
 - **Autor**: Rosendo Camal
 
 ## Contenido

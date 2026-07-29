@@ -198,4 +198,4 @@ tags: [meta, indice, catalogo]
 
 *No hay síntesis general aún. Ingestar al menos 3 fuentes para generar.*
 
-*(Total: 55 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 73 fuentes raw | Wiki: 32 entities + 42 concepts + 21 sources + 1 log + 1 state = 97 páginas wiki | 98 archivos md en wiki/ + index.md)*
+*(Total: 56 md en courses/ + 7 docs/ + 6 journal/ + 5 texts/ = 74 fuentes raw | Wiki: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki)*

@@ -2,65 +2,67 @@
 title: "Vault State"
 type: overview
 created: 2026-07-16
-updated: 2026-07-19
+updated: 2026-07-29
 sources: [AGENTS.md]
 tags: [meta, estado, vault]
 ---
 
 # Vault State
 
-*Snapshot del vault al momento del último commit. Actualizado cada vez que se modifican archivos en `wiki/` o `raw/`.*
+*Snapshot del vault al momento del último commit.*
 
 ## Última actualización
 
-- **Fecha:** 2026-07-19
-- **Commit:** `pending` — Conformidad completa: citas, voz del autor, open questions
+- **Fecha:** 2026-07-29
+- **Commit:** `6b0816d` — metadata: frontmatter YAML en raw sources + sync en wiki source pages
 
 ## Raw Sources
 
 | Directorio | Archivos | Detalle |
 |------------|----------|---------|
-| `raw/courses/` | 55 | 12 materias (algebra-lineal, calculo, calculo-vectorial, contabilidad-financiera, cultura-empresarial, fundamentos-programacion, intro-ing-sistemas, investigacion-operaciones, matematicas-discretas, poo, coursera-santander, santander) |
+| `raw/courses/` | 56 | 13 materias (13 dirs: algebra-lineal, calculo, calculo-vectorial, capacitate-para-el-empleo, contabilidad-financiera, coursera-santander, cultura-empresarial, fundamentos-programacion, intro-ing-sistemas, investigacion-operaciones, matematicas-discretas, poo, santander) |
 | `raw/docs/` | 7 | Documentación técnica (git, fedora, virtualbox, 7z, diskpart) |
 | `raw/journal/` | 6 | Entradas de diario (2025-01-26 a 2026-07-10) |
 | `raw/texts/` | 5 | Ensayos filosóficos/teológicos originales |
-| **Total** | **73** | |
+| **Total** | **74** | |
 
 ## Wiki Pages
 
 | Categoría | Activas | Detalle |
 |-----------|---------|---------|
-| `entities/` | 32 | 18 originales + 14 nuevos (augustus-de-morgan, github, red-hat, gnu, microsoft, apple, bjarne-stroustrup, john-backus, john-mccarthy, john-von-neumann, vmware, hyper-v, winrar, winzip) |
-| `concepts/` | 42 | 40 originales + 2 nuevos (cultura-organizacional + fuente-curso-ofimatica como concepto) |
-| `sources/` | 21 | 19 originales + 2 nuevos (fuente-curso-ofimatica, fuente-curso-proteccion-datos) |
+| `entities/` | 32 | 18 originales + 14 adicionales |
+| `concepts/` | 44 | 8 teológicos + 24 cursos + 7 guías docs + 5 reflexiones journal |
+| `sources/` | 22 | 5 texts + 13 courses + 1 docs + 3 journal |
 | `queries/` | 0 | *(vacíos)* |
 | `overview/` | 0 | *(vacíos)* |
-| **Páginas** | **97** | *(98 archivos md en wiki/ + index.md)* |
+| **Páginas** | **100** | *(32 entities + 44 concepts + 22 sources + 1 log + 1 state)* |
 
 ## Git
 
-- **Último commit:** `pending`
+- **Último commit:** `6b0816d`
 - **Remote:** `git@github.com:rosendocamal/obsidian-vault.git`
 - **Branch:** `master`
 
 ## Pending
 
+- [ ] Lint wikilinks (verificar que todos los `[[wikilinks]]` resuelvan)
 - [ ] Generate overview/synthesis page (`wiki/overview/`)
 - [ ] Archive user queries when asked (`wiki/queries/`)
 
-## Relaciones
+## Cambios en esta sesión
 
-- Este snapshot depende de [[index]] para el catálogo completo
-- El historial operativo está en [[log]]
+1. Corregido conteo de `index.md`: 44 concepts + 22 sources = 100 pages (era 42/21/97)
+2. Corregido `state.md`: commit real `6b0816d`, raw 74, pages 100
+3. Corregido `fuente-curso-contabilidad-financiera.md`: Archivos: 3 → 4 (incluye borrador.md)
+4. Corregido `fuente-curso-cultura-empresarial.md`: filename exacto (`mapeo-organizacional-de-la-universida-1.md`)
+5. Eliminadas blank lines finales en `curso_ofimatica.md` (notas Excel)
 
-## Changes This Session
+## Post-commit checklist
 
-1. Added inline citations `(Source, YYYY)` to all 74 entity + concept pages
-2. Renamed `diskpart_recuperación_unidad_usb.md` to ASCII + updated all references
-3. Restored author's voice in 5 pages (fundamentos-conocimiento, critica-prensa, reflexion-identidad-eternidad, plan-algoritmia, salud-y-economia-farmaceutica)
-4. Flagged 3 OPEN QUESTIONs from raw sources (paternidad, salud-farmaceutica, teología)
-5. Added cross-reference to theological contradictions in san-agustin.md
-6. Consolidated duplicate OPEN QUESTION with cross-reference to semejanza-divina + dios-como-pi
+Después de cada commit, verificar:
+- [ ] `index.md` bottom line refleja conteos reales de disco
+- [ ] `state.md` fecha y commit actualizados
+- [ ] Ningún archivo dirty queda sin commit
 
 ## Instructions for Next Session
 
@@ -69,4 +71,5 @@ tags: [meta, estado, vault]
 3. Read `wiki/log.md` for chronological operation history
 4. Read `wiki/index.md` for the full catalog
 5. Check `git log --oneline -3` for latest changes
-6. Proceed with pending items above or answer user query
+6. Run `git status` before committing to verify no dirty files
+7. Proceed with pending items above or answer user query

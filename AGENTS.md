@@ -79,3 +79,18 @@ Periodic health check:
 ## On Session Start
 
 Read `wiki/state.md` first for the current vault state snapshot.
+
+## Pre-commit verification
+
+Before any commit, run:
+
+```
+git status
+```
+
+If dirty files exist, decide whether to commit, discard, or finish them.
+After every commit, verify:
+
+- [ ] `wiki/index.md` bottom line matches real counts (`ls wiki/concepts/*.md | wc -l`, etc.)
+- [ ] `wiki/state.md` date + commit hash updated
+- [ ] No dirty files remain (`git status` is clean)

@@ -141,3 +141,20 @@ tags: [meta, changelog, historial]
 - Cross-links: osint ↔ bases-datos, ambos ↔ fundamentos-programacion, linux, hardware-computacion, contabilidad-basica, analisis-foda
 - Total raw sources: 74 (+1)
 - Total wiki pages: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki
+
+## [2026-07-21] metadata | Frontmatter YAML en raw sources
+
+- Agregado `---` de cierre faltante en `especialidad_tratamientos_datos.md` y `curso_ofimatica.md`
+- Sincronizadas source pages `fuente-curso-capacitate-empleo.md` y `fuente-curso-ofimatica.md`
+- Commit: `6b0816d`
+
+## [2026-07-29] sync | Corrección de conteos y desincronización state/index
+
+- Corregido `index.md`: conteo inferior 44 concepts + 22 sources = 100 pages (estaba 42/21/97)
+- Corregido `state.md`: commit real `6b0816d`, raw 74, pages 100, pending realistas
+- Corregido `fuente-curso-contabilidad-financiera.md`: Archivos 3→4 (incluye borrador.md)
+- Corregido `fuente-curso-cultura-empresarial.md`: filename exacto (`mapeo-organizacional-de-la-universida-1.md`)
+- Eliminadas blank lines finales en `curso_ofimatica.md` (notas Excel)
+- Agregado post-commit checklist a state.md para evitar desincronización futura
+- Total raw sources: 74 (sin cambios)
+- Total wiki pages: 32 entities + 44 concepts + 22 sources + 1 log + 1 state = 100 páginas wiki
