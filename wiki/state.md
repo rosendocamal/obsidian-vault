@@ -14,7 +14,7 @@ tags: [meta, estado, vault]
 ## Última actualización
 
 - **Fecha:** 2026-07-29
-- **Commit:** `pending` — fix: actualiza commit hash en state.md | overview + lint
+- **Commit:** `659b5af` — feat: overview sintesis-general + lint wikilinks final
 
 ## Raw Sources
 
