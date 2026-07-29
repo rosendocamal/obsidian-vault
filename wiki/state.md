@@ -14,7 +14,7 @@ tags: [meta, estado, vault]
 ## Última actualización
 
 - **Fecha:** 2026-07-29
-- **Commit:** `659b5af` — feat: overview sintesis-general + lint wikilinks final
+- **Commit:** `90599be` — fix: actualiza state.md (lint + overview completados)
 
 ## Raw Sources
 
@@ -39,7 +39,7 @@ tags: [meta, estado, vault]
 
 ## Git
 
-- **Último commit:** `659b5af`
+- **Último commit:** `90599be`
 - **Remote:** `git@github.com:rosendocamal/obsidian-vault.git`
 - **Branch:** `master`
 
