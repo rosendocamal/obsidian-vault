@@ -39,14 +39,12 @@ tags: [meta, estado, vault]
 
 ## Git
 
-- **Último commit:** `6b0816d`
+- **Último commit:** `659b5af`
 - **Remote:** `git@github.com:rosendocamal/obsidian-vault.git`
 - **Branch:** `master`
 
 ## Pending
 
-- [ ] Lint wikilinks (verificar que todos los `[[wikilinks]]` resuelvan)
-- [ ] Generate overview/synthesis page (`wiki/overview/`)
 - [ ] Archive user queries when asked (`wiki/queries/`)
 
 ## Cambios en esta sesión
@@ -56,6 +54,8 @@ tags: [meta, estado, vault]
 3. Corregido `fuente-curso-contabilidad-financiera.md`: Archivos: 3 → 4 (incluye borrador.md)
 4. Corregido `fuente-curso-cultura-empresarial.md`: filename exacto (`mapeo-organizacional-de-la-universida-1.md`)
 5. Eliminadas blank lines finales en `curso_ofimatica.md` (notas Excel)
+6. Lint wikilinks: 466 revisados, 0 broken activos
+7. Overview: creada `wiki/overview/sintesis-general.md` (4 dominios, 3 hilos transversales)
 
 ## Post-commit checklist
 
