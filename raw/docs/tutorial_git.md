@@ -1,5 +1,9 @@
 # Documentación de Git
 
+| Fecha de inicio | Fecha de finalización |
+|-----------------|-----------------------|
+| 2026-08-10      | 2026-08-16            |
+
 ## Configuración global de Git
 
 Agregar nombre de usuario y correo electrónico:
