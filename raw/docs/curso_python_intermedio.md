@@ -5,7 +5,6 @@
 | 2026-08-18      |                       | -                      |
 
 ## Fechas
----
 
 Para importar el módulo de fechas tenemos dos vías.
 
@@ -130,7 +129,6 @@ print(end_timedelta / start_timedelta)
 ```
 
 ## List Comprehension
----
 
 Se puede crear un rango (de clase `range`):
 
@@ -147,7 +145,6 @@ my_list = ["item" for _ in my_range]
 ```
 
 ## Retos de programación
----
 
 > Los retos son soluciones de menos de cinco minutos. No incluyen las instrucciones, solo la solución.
 
@@ -233,5 +230,205 @@ reversed_str("Hola, mundo.")
 ```
 
 ## Lambdas
----
 
+Para escribir una función **lambda** tenemos la siguiente sintaxis de declaración y su uso:
+
+```python
+sum_two_values = lambda a, b: a + b
+
+print(sum_two_values(5, 5)) # Output: 10
+```
+
+```python
+is_false = lambda value: True if value else False
+
+print(is_false(0)) # Output: False
+```
+
+## Higher Order Functions
+
+Podemos utilizar una función y pasarla como parámetro a otra función.
+
+```python
+def sum_five(value):
+    return value + 5
+
+def sum_two_values(value_1, value_2, function_sum):
+    return function_sum(value_1 + value_2)
+
+print(sum_two_values(5, 5, sum_five)) # Output: 15
+```
+
+## Closures
+
+Es crear como crear una función dentro de otra función.
+
+```python
+def sum_ten():
+    def add(value):
+        return value + 10
+    return add
+
+add_closure = sum_ten()
+add_closure(15)
+```
+
+```python
+def sum_ten(original_value):
+    def add(value):
+        return value + 10 + original_value
+    return add
+
+add_closure = sum_ten(1) # Se pasa el valor original_value
+print(add_closure(5)) # Se suma al 5 los valores de (10 + original_value)
+```
+
+## Built-in Higher Order Function
+
+Función de **map**:
+
+```python
+# Ejemplo 1
+numbers = [i**2 for i in range(1, 7)]
+
+def multiply_two(number):
+    return number * 2
+print(list(map(multiply_two, numbers)))
+
+# Ejemplo 2
+numbers = [i**2 for i in range(1, 7)]
+
+print(list(map(lambda number: number * 2, numbers)))
+```
+
+Función de **filter**:
+
+```python
+# Ejemplo 1
+numbers = [i**2 for i in range(1, 7)]
+
+def filter_greater_than_ten(number):
+    if number > 10:
+        return True
+    return False
+
+print(list(filter(filter_greater_than_ten, numbers)))
+
+# Ejemplo 2
+numbers = [i**2 for i in range(1, 7)]
+
+print(list(filter(lambda number: number > 10, numbers)))
+```
+
+Función de **reduce**. La función `reduce` hace que se sume los parámetros con los valores entregados más la suma acumulativa, es decir (suma acumulativa + un elemento de la lista ingresada):
+
+```python
+from functools import reduce
+
+numbers = [i**2 for i in range(1, 7)]
+
+print(reduce(lambda a, b: a + b, numbers))
+```
+
+## Error Types
+
+Para usar en la estructura `try-except`:
+
+- **SyntaxError**.
+- **NameError**.
+- **IndexError**.
+- **ModuleNotFounderError**.
+- **AttributeError**.
+- **KeyError**.
+- **TypeError**.
+- **ImportError**.
+- **ValueError**.
+- **ZeroDivisionError**.
+
+## File Handing
+
+- **Python files mode**: `r`: leer; `w`: escribir; `r+`: leer y escribir; `w+`: leer, escribir y sobreescribir si existe.
+
+Archivos de `texto`:
+
+```python
+txt_file = open("file.txt", "r+") # Abrir fichero
+
+txt_file.read() # Leer todo el archivo
+
+for line in txt_file.readlines(): # Leer línea por línea
+    print(line)
+
+txt_files.write("\New text") # Escribir en el fichero
+
+txt_file.close() # Cerrar fichero
+```
+
+Archivos `json`:
+
+```python
+import json
+
+json_file = open("file.json", "w+")
+
+json_test = {
+    "name": "Baruch",
+    "surname": "Spinoza",
+    "age": 35,
+    "language": "Latin"
+}
+
+json.dump(json_test, json_file)
+json.dump(json_test, json_file, indent = 4)
+
+json_file.close()
+
+with open("file.json") as f_json: # Context manager
+    for line in f_json.readlines():
+        print(line)
+
+json_dict = json.load(open("file.json"))
+print(json_dict)
+print(type(json_dict))
+print(json_dict["name"])
+```
+
+Archivos `csv`:
+
+```python
+import csv
+
+csv_file = open("file.csv", "w+")
+
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(["name", "surname", "age", "languages", "website"])
+csv_writer.writerow(["Baruch", "Spinoza", 35, "Latin", "NA"])
+
+csv_file.close()
+
+with opne("file.csv") as f_csv:
+    for line in f_csv.readlines():
+        print(line)
+```
+
+Archivos `xlsx`:
+
+```python
+import xlrd # Debe instalarse el módulo
+```
+
+Archivos `xml`:
+
+```python
+import xml
+```
+
+## Expresiones Regulares
+
+```python
+import re
+
+string = "Esta es una oración con el número 1."
+
+re.match()
+```
