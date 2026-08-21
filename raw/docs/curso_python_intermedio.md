@@ -429,6 +429,136 @@ import xml
 import re
 
 string = "Esta es una oración con el número 1."
+another_string = "¿Lección? Esta no es una lección. O quizás si sea una lección... Lecciones"
 
-re.match()
+### match ###
+match = re.match("Esta no es una lección", another_string, re.I)
+
+span = match.span()
+start, end = match.span()
+match.span()
+print(another_string[start:end])
+
+re.match("Esta es una oración", string, re.I)
+
+match = re.match("Esta es una oración", string)
+if match != None:
+    print(match)
+    start, end = match.span()
+    print(string[start:end])
+
+if match is not None:
+    // El bloque anterior
+    pass
+
+if not(match == None):
+    // El bloque anterior referido
+    pass
+
+
+#### search ###
+search = re.search("lección", another_string, re.I)
+print(search)
+start, end = search.span()
+print(another_string[start, end])
+
+
+#### findall ####
+findall = re.findall("lección", another_string, re.I)
+print(findall)
+
+
+#### split ####
+print(re.split(".", another_string))
+
+
+#### sub ####
+print(re.sub("[l|L]ección", "CLASES", another_string))
+
+
+#### Patterns ####
+pattern = r"[lL]ección"
+print(re.findall(pattern, another_string))
+
+pattern = r"[lL]lección|CLASES"
+print(re.findall(pattern, another_string))
+
+num = "0: cero. 1: uno. 2: dos. 3: tres."
+pattern = r"[0-9]"
+print(re.findall(pattern, num))
+print(re.search(pattern, num))
+
+pattern = r"\d"
+print(re.findall(pattern, another_string))
+
+pattern = r"[l].*"
+print(re.findall(pattern, another_string))
+```
+
+## Python Package Manager
+
+Algunas herramientas que nos puede ayudar a gestionar paquetes de Python.
+
+- **pip**.
+- **uv** (astral).
+- **conda**.
+
+**PIP**:
+
+Checar versión:
+
+```bash
+pip --version
+```
+Instalar algún paquete con `pip`:
+
+```bash
+pip install pip
+```
+
+Para actualizar `pip`:
+
+```bash
+pip install --upgrade pip
+```
+
+Ejemplo de una instalación de un paquete `numpy`:
+
+```bash
+pip install numpy
+```
+
+```python
+import numpy
+
+print(numpy.version.version)
+
+numpy_array = numpy.array([i for i in range(1, 10)])
+print(type(numpy_array))
+
+print(numpy_array ** 2342)
+```
+
+Instalación de `pandas`:
+
+```bash
+pip install pandas
+```
+
+Para ver la lista de paquetes instalados con `pip`:
+
+```bash
+pip list
+```
+
+Para eliminar un paquete instalado. Ejemplo, eliminando `pandas`:
+
+```bash
+pip uninstall pandas
+```
+
+Para ver información de un paquete instalado. Ejemplo con `numpy`:
+
+```bash
+pip show numpy
 ```
