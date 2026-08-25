@@ -2,7 +2,7 @@
 
 | Fecha de inicio | Fecha de finalización | Fecha de actualización |
 |-----------------|-----------------------|------------------------|
-| 2026-08-24      | 2026-08-24            |                        |
+| 2026-08-24      | 2026-08-24            | 2026-08-24             |
 
 ## Primeros pasos
 
@@ -121,7 +121,9 @@ Para ingresar a nuestra documentación automática podemos utilizar `http://127.
 Para el backend podemos emplear `Thunder Client` como extensión en `Visual Studio Code` o [`Postman`](https://www.postman.com/downloads/).
 
 > Aprender **métodos HTTP** principales.
+
 > Analogía: los 4 principales son similares al concepto de **CRUD**.
+
 > [_HTTP response status code_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
 
 > [Documentación **FastAPI**](https://fastapi.tiangolo.com/)
@@ -131,14 +133,16 @@ Para el backend podemos emplear `Thunder Client` como extensión en `Visual Stud
 Estructura de los archivos realizados:
 
 ```bash
-total 16
-drwxr-xr-x. 1 user user  132 Aug 24 18:51 .
-drwxr-xr-x. 1 user user  108 Aug 24 19:05 ..
--rw-r--r--. 1 user user 2170 Aug 24 18:47 basic_auth_users.py
--rw-r--r--. 1 user user 3125 Aug 24 18:51 jwt_auth_users.py
--rw-r--r--. 1 user user  408 Aug 24 16:17 products.py
-drwxr-xr-x. 1 user user  214 Aug 24 18:52 __pycache__
--rw-r--r--. 1 user user 2112 Aug 24 16:19 users.py
+.
+├── main.py
+├── routers
+│   ├── basic_auth_users.py
+│   ├── jwt_auth_users.py
+│   ├── products.py
+│   └── users.py
+└── static
+    └── images
+        └── img.webp
 ```
 
 `main.py`:
