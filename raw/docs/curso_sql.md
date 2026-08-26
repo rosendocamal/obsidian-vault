@@ -2,7 +2,7 @@
 
 | Inicio | Fin | Actualización |
 |-|-|-|
-| 2026-08-25 | | |
+| 2026-08-25 | 2026-08-26 | |
 
 > [!NOTE]
 > Descargar [**MySQL Community**](https://dev.mysql.com/downloads/mysql/).
@@ -678,6 +678,208 @@ ON users.user_id = dni.user_id;
 
 ## Conceptos avanzados
 
+### INDEX
+
+```sql
+-- CREATE INDEX
+CREATE INDEX idx_name ON users(name);
+
+CREATE UNIQUE INDEX idx_name ON users(name);
+
+CREATE UNIQUE INDEX idx_name ON users(name, surname);
+
+-- DROP INDEX
+DROP INDEX idx_name ON users;
+```
+
+### TRIGGER
+
+```sql
+-- CREATE TRIGGER
+delimiter |
+
+CREATE TRIGGER tg_email
+AFTER UPDATE ON users
+FOR EACH ROW
+BEGIN
+	IF OLD.email <> NEW.email THEN
+		INSERT INTO email_history(user_id, email)
+        VALUES (OLD.user_id, OLD.email);
+	END IF;
+END;
+
+|
+
+delimiter ;
+
+-- OBSERVAR COMPORTAMIENTO DEL TRIGGER
+UPDATE users SET email = 'elmataviejitas5000@nsogroup.com' WHERE user_id = 1;
+
+-- DROP TRIGGER
+DROP TRIGGER tg_email;
+```
+
+### VIEWS
+
+```sql
+-- CREATE VIEW
+CREATE VIEW v_adults_users AS
+SELECT name AS Adulto, age AS Edad
+FROM users
+WHERE age >= 18;
+
+-- USAR VIEW
+SELECT * FROM v_adults_users;
+
+-- ELIMINAR VIEW
+DROP VIEW v_adults_users;
+```
+
+### STORED PROCEDURE
+
+```sql
+-- CREATE PROCEDURE
+DELIMITER //
+CREATE PROCEDURE p_all_users()
+BEGIN
+	SELECT * FROM users;
+END//
+
+DELIMITER //
+CREATE PROCEDURE p_age_users(IN age_param INT)
+BEGIN
+	SELECT * FROM users WHERE age = age_param;
+END//
+
+-- USO DEL STORED PROCEDURE
+CALL p_all_users;
+
+CALL p_age_users(25);
+
+-- DROP PROCEDURE
+DROP p_all_users;
+
+DROP p_age_users;
+```
+
+## Transacciones
+
+- `START TRANSACTION`
+- `COMMIT`
+- `ROLLBACK`
+
+## Concurrencia
+
+> [!NOTE]
+> La concurrencia es más propio de los motores de bases de datos que del lenguaje SQL.
+
+## CONNECTORS
+
+> [!NOTE]
+> Primero debes instalar el módulo de MySQL para Python. Tutorial [aquí](https://www.geeksforgeeks.org/python/how-to-install-mysql-connector-package-in-python/).
+
+Ejemplo en `Python`:
+
+```python
+import mysql.connector
+
+config = {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "database": "hello_mysql",
+        "user": "root",
+        "password": ""
+}
+
+connection = mysql.connector.connect(**config)
+cursor = connection.cursor()
+
+query = "SELECT * FROM users"
+cursor.execute(query)
+result = cursor.fetchall()
+
+for row in result:
+    print(row)
+
+cursor.close()
+connection.close()
+```
+
+> El acceso a una base de datos de esta manera no está restrigida a Python. Está disponible en todos los lenguajes de programación.
+
+## SQL Injection
+
+Código en Python vulnerable:
+
+```python
+import mysql.connector
+
+def print_user(user):
+    config = {
+            "host": "127.0.0.1",
+            "port": "3306",
+            "database": "hello_mysql",
+            "user": "root",
+            "password": ""
+    }
+
+    connection = mysql.connector.connect(**config)
+    cursor = connection.cursor()
+
+    query = f"SELECT * FROM users WHERE name = '{user}';"
+    cursor.execute(query)
+    result = cursor.fetchall()
+
+    for row in result:
+        print(row)
+
+    cursor.close()
+    connection.close()
+
+print_user("Juan")
+
+# Las siguientes llamada a la función print_user no funciona porque el sistema detecta múltiples queries cuando solo recibe una.
+# Sin embargo, así es como se puede realizar una SQL Injection.
+print_user("Juan'; INSERT INTO (name, surname, email) VALUES ('Jeff', 'Bezos', 'jeffbezos@amazon.com.eu'); ")
+
+print_user("Juan'; UPDATE users SET age = 14312 WHERE user_id = 1 --")
+```
+
+Correción que impide el **SQL Injection**.
+
+```python
+import mysql.connector
+
+def print_user(user):
+    config = {
+            "host": "127.0.0.1",
+            "port": "3306",
+            "database": "hello_mysql",
+            "user": "root",
+            "password": ""
+    }
+
+    connection = mysql.connector.connect(**config)
+    cursor = connection.cursor()
+
+    query = f"SELECT * FROM users WHERE name = %s;"
+    cursor.execute(query, (user,))
+    result = cursor.fetchall()
+
+    for row in result:
+        print(row)
+
+    cursor.close()
+    connection.close()
+
+print_user("Juan")
+
+# Con este pequeño arreglo, ni siquiera se intenta ejecutar ni causa errores las siguientes llamadas a print_user.
+
+print_user("Juan'; INSERT INTO (name, surname, email) VALUES ('Jeff', 'Bezos', 'jeffbezos@amazon.com.eu'); ")
+
+print_user("Juan'; UPDATE users SET age = 14312 WHERE user_id = 1 --")
+```
 ## Herramientas gráficas
 
 - [**DbVisualizer**](https://www.dbvis.com/).
@@ -687,8 +889,16 @@ ON users.user_id = dni.user_id;
 - [**TablePlus**](https://www.tableplus.com).
 - [**MySQL Workbench**](https://dev.mysql.com/downloads/workbench).
 
+## Despliegue
+
+- [**Vercel Postgress**](https://vercel.com).
+- [**Supabase**](https://supabase.com).
+- [**Raiola Networks**](https://raiolanetworks.es).
+
+- [**PlanetScale**](https://planetsacel.com).
+- [**Clever Cloud**](https://clever-cloud.com).
+
 ## Recursos adicionales
 
 - [**SQLBolt**](https://sqlbolt.com/).
 - [**W3Schools**](https://www.w3schools.com/sql/).
-
