@@ -455,6 +455,8 @@ DROP COLUMN description;
 
 ## Relaciones
 
+### Tipos de relaciones
+
 - Relaciones `1:1`.
 
 - Relaciones `1:N`.
@@ -462,6 +464,219 @@ DROP COLUMN description;
 - Relaciones `N:M`.
 
 - Autoreferencia
+
+### Creación de tablas relacionadas
+
+```sql
+-- TABLA 1:1
+CREATE TABLE dni(
+	dni_id INT AUTO_INCREMENT PRIMARY KEY,
+    dni_number INT NOT NULL,
+    user_id INT,
+    UNIQUE(id),
+    FOREIGN KEY(user_id) REFERENCES users(user_id)
+);
+
+-- TABLA 1:N
+CREATE TABLE companies(
+	company_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+ALTER TABLE users
+ADD company_id INT;
+
+ALTER TABLE users
+ADD CONSTRAINT fk_companies
+FOREIGN KEY(company_id) REFERENCES companies(company_id);
+
+-- TABLA N:M
+CREATE TABLE languages(
+	language_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE users_languages(
+	users_language_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    language_id INT,
+    FOREIGN KEY(user_id) REFERENCES users(user_id),
+    FOREIGN KEY(language_id) REFERENCES languages(language_id),
+    UNIQUE (user_id, language_id)
+);
+```
+
+### Datos y relaciones
+
+```sql
+-- DATOS 1:1
+INSERT INTO dni (dni_number, user_id) VALUES (111111, 1);
+INSERT INTO dni (dni_number, user_id) VALUES (232222, 2);
+INSERT INTO dni (dni_number, user_id) VALUES (333331, 3);
+
+-- DATOS 1:N
+INSERT INTO companies (name) VALUES ('Dunosusa');
+INSERT INTO companies (name) VALUES ('SuperWillys');
+INSERT INTO companies (name) VALUES ('Google');
+INSERT INTO companies (name) VALUES ('Facebook');
+INSERT INTO companies (name) VALUES ('FMI');
+INSERT INTO companies (name) VALUES ('Banco Mundial');
+
+UPDATE users SET company_id = 1 WHERE user_id = 1;
+UPDATE users SET company_id = 2 WHERE user_id = 5;
+UPDATE users SET company_id = 3 WHERE user_id = 4;
+UPDATE users SET company_id = 4 WHERE user_id = 3;
+UPDATE users SET company_id = 5 WHERE user_id = 2;
+
+-- DATOS N:M
+INSERT INTO languages (name) VALUES ('C++');
+INSERT INTO languages (name) VALUES ('MATLAB');
+INSERT INTO languages (name) VALUES ('Python');
+INSERT INTO languages (name) VALUES ('Rust');
+INSERT INTO languages (name) VALUES ('Octave');
+INSERT INTO languages (name) VALUES ('Maxima');
+
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 1);
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 2);
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 3);
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 4);
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 5);
+INSERT INTO users_languages (user_id, language_id) VALUES (1, 6);
+INSERT INTO users_languages (user_id, language_id) VALUES (2, 2);
+INSERT INTO users_languages (user_id, language_id) VALUES (2, 3);
+INSERT INTO users_languages (user_id, language_id) VALUES (3, 5);
+INSERT INTO users_languages (user_id, language_id) VALUES (3, 6);
+INSERT INTO users_languages (user_id, language_id) VALUES (4, 1);
+INSERT INTO users_languages (user_id, language_id) VALUES (4, 2);
+INSERT INTO users_languages (user_id, language_id) VALUES (4, 3);
+INSERT INTO users_languages (user_id, language_id) VALUES (4, 4);
+INSERT INTO users_languages (user_id, language_id) VALUES (5, 4);
+```
+
+## Consulta de relaciones
+
+### INNER JOIN
+
+```sql
+SELECT * FROM users
+INNER JOIN dni;
+
+SELECT * FROM users
+INNER JOIN dni
+ON users.user_id = dni.user_id;
+
+SELECT * FROM users
+INNER JOIN dni
+ON users.user_id = dni.user_id
+ORDER BY age DESC;
+
+SELECT * FROM users
+INNER JOIN dni
+ON users.user_id = dni.user_id
+ORDER BY age ASC;
+
+SELECT name, dni.dni_number, email FROM users
+INNER JOIN dni
+ON users.user_id = dni.user_id
+ORDER BY age ASC;
+
+SELECT * FROM users
+JOIN companies
+ON users.company_id = companies.company_id;
+
+SELECT * FROM companies
+JOIN users
+ON companies.company_id = users.company_id;
+
+SELECT *
+FROM users_languages
+INNER JOIN users ON users_languages.user_id = users.user_id
+INNER JOIN languages ON users_languages.user_id = languages.language_id;
+
+SELECT users.name AS 'Empleado', languages.name AS 'Lenguage de Programación'
+FROM users_languages
+INNER JOIN users ON users_languages.user_id = users.user_id
+INNER JOIN languages ON users_languages.user_id = languages.language_id;
+```
+
+### LEFT JOIN
+
+```sql
+SELECT * FROM users
+LEFT JOIN dni
+ON users.user_id = dni.user_id;
+
+SELECT name, dni_number FROM users
+LEFT JOIN dni
+ON users.user_id = dni.user_id;
+
+SELECT name, dni_number FROM dni
+LEFT JOIN users
+ON users.user_id = dni.user_id;
+
+SELECT users.name AS 'Empleado', languages.name AS 'Lenguage de Programación'
+FROM users_languages
+LEFT JOIN users ON users_languages.user_id = users.user_id
+LEFT JOIN languages ON users_languages.user_id = languages.language_id;
+
+SELECT users.name AS 'Empleado', languages.name AS 'Lenguage de Programación'
+FROM users_languages
+LEFT JOIN users ON users_languages.user_id = users.user_id
+JOIN languages ON users_languages.user_id = languages.language_id;
+```
+
+### RIGHT JOIN
+
+```sql
+SELECT * FROM users
+RIGHT JOIN dni
+ON users.user_id = dni.user_id;
+
+SELECT name, dni_number FROM users
+RIGHT JOIN dni
+ON users.user_id = dni.user_id;
+
+SELECT name, dni_number FROM dni
+RIGHT JOIN users
+ON users.user_id = dni.user_id;
+
+SELECT users.name AS 'Empleado', languages.name AS 'Lenguage de Programación'
+FROM users_languages
+RIGHT JOIN users ON users_languages.user_id = users.user_id
+RIGHT JOIN languages ON users_languages.user_id = languages.language_id;
+
+SELECT users.name AS 'Empleado', languages.name AS 'Lenguage de Programación'
+FROM users_languages
+RIGHT JOIN users ON users_languages.user_id = users.user_id
+JOIN languages ON users_languages.user_id = languages.language_id;
+```
+
+### FULL JOIN
+
+```sql
+SELECT users.user_id AS u_user_id, dni.user_id AS d_user_id
+FROM users
+LEFT JOIN dni
+ON users.user_id = dni.user_id
+UNION ALL
+SELECT users.user_id AS u_user_id, dni.user_id AS d_user_id
+FROM users
+RIGHT JOIN dni
+ON users.user_id = dni.user_id
+WHERE users.user_id IS NULL;
+
+SELECT *
+FROM users
+LEFT JOIN dni
+ON users.user_id = dni.user_id
+UNION
+SELECT *
+FROM users
+RIGHT JOIN dni
+ON users.user_id = dni.user_id;
+```
+
+## Conceptos avanzados
 
 ## Herramientas gráficas
 
