@@ -85,7 +85,18 @@ INSERT INTO `hello_mysql`.`users` (`user_id`, `name`, `surname`, `age`, `init_da
 INSERT INTO `hello_mysql`.`users` (`user_id`, `name`, `surname`, `age`, `init_date`, `email`) VALUES ('4', 'Satya', 'Sundai', '48', '2005-07-01', 'satyasundai@grupoalianza.com');
 ```
 
-## Sentencias SQL
+## Lectura de Bases de Datos
+
+### Comentarios
+
+```sql
+-- Comentario en una línea.
+
+/* Comentarios en varias líneas.
+   Esto es una línea.
+   Esto es otra línea.
+*/
+```
 
 ### SELECT
 
@@ -149,41 +160,286 @@ SELECT * FROM users WHERE NOT NOT email LIKE '%grupoalianza.com';
 SELECT * FROM users WHERE NOT NOT NOT email LIKE '%grupoalianza.com';
 
 SELECT * FROM users WHERE NOT age = 128 AND email LIKE '%grupoalianza.com';
+
+SELECT * FROM users WHERE NOT email = 'juansalinas@grupoalianza.com' OR age >= 25 AND age < 100;
 ```
 
-###
+### LIMIT
 
 ```sql
+SELECT * FROM users WHERE NOT email = 'juansalinas@grupoalianza.com' OR age >= 25 AND age < 100 LIMIT 2;
+
+SELECT * FROM users LIMIT 2;
 ```
 
-###
+### NULL
 
 ```sql
+SELECT * FROM users WHERE email IS NULL;
+
+SELECT * FROM users WHERE email IS NOT NULL;
+
+SELECT * FROM users WHERE email IS NOT NULL AND user_id >= 2 AND user_id < 4 LIMIT 1;
 ```
 
-###
+### MAX, MIN
 
 ```sql
+SELECT MAX(age) FROM users;
+
+SELECT MIN(age) FROM users;
+
+SELECT MAX(age), MIN(age) FROM users;
+
+SELECT MAX(age) as edad_maxima,
+	MIN(age) as edad_minima
+FROM users;
 ```
 
-###
+### COUNT
 
 ```sql
+SELECT COUNT(*) FROM users;
+
+SELECT COUNT(age) FROM users;
 ```
 
-###
+### SUM, AVG
 
 ```sql
+SELECT SUM(age) FROM users;
+
+SELECT AVG(age) FROM users;
 ```
 
-###
+### IN
 
 ```sql
+SELECT * FROM users WHERE name IN ('juan');
+
+SELECT * FROM users WHERE name IN ('Juan');
+
+SELECT * FROM users WHERE name IN ('JUAN');
+
+SELECT * FROM users WHERE name IN ('braiS', 'SATYA');
 ```
 
-###
+### BETWEEN
 
 ```sql
+SELECT * FROM users WHERE age BETWEEN 20 AND 35;
+```
+
+### ALIAS
+
+```sql
+SELECT name AS 'NOMBRE', init_date AS 'FECHA DE GRADUACIÓN' FROM users WHERE age BETWEEN 20 AND 50;
+```
+
+### CONCAT
+
+```sql
+SELECT CONCAT('Nombre: ', name, ', Apellidos: ', surname) AS 'Nombre completo' FROM users;
+
+SELECT CONCAT(name, ' ', surname) AS 'NOMBRE COMPLETO' FROM users;
+
+SELECT CONCAT(name, ' ', surname, ' tiene ', age, ' años y su correo electrónico es ', email) AS 'Frase' FROM users;
+```
+
+### GROUP BY
+
+```sql
+SELECT MAX(age) FROM users GROUP BY age ORDER BY age DESC;
+
+SELECT MAX(age) FROM users GROUP BY age;
+
+SELECT MIN(age) FROM users GROUP BY age ORDER BY age ASC;
+
+SELECT MIN(age) FROM users GROUP BY age;
+
+SELECT age AS 'Edad', COUNT(age) AS 'Personas' FROM users GROUP BY age;
+
+SELECT age AS 'Edad', COUNT(age) AS 'Personas' FROM users WHERE age > 15 AND age < 128 GROUP BY age;
+
+SELECT age AS 'Edad', COUNT(age) AS 'Personas' FROM users WHERE age > 15 AND age < 128 GROUP BY age ORDER BY age ASC;
+
+SELECT age AS 'Edad', COUNT(age) AS 'Personas' FROM users WHERE age > 15 AND age < 128 GROUP BY age ORDER BY age DESC;
+```
+
+### HAVING
+
+```sql
+SELECT COUNT(age) FROM users HAVING COUNT(age) > 3;
+```
+
+### CASE
+
+```sql
+SELECT *,
+CASE
+	WHEN age > 30 THEN 'Muy cerca de la jubilación.'
+    ELSE 'Está en sus años de juventud.'
+END AS '¿Es joven?'
+FROM users;
+
+SELECT *,
+CASE
+	WHEN age > 30 THEN False
+    ELSE True
+END AS '¿Come como si chambeara?'
+FROM users;
+
+SELECT *,
+CASE
+    WHEN age > 99 THEN 'Usted es sobreviviente del siglo pasado.'
+	WHEN age > 30 THEN 'Muy cerca de la jubilación.'
+    ELSE 'De ninguna manera.'
+END AS '¿Se puede jubilar?'
+FROM users;
+```
+
+### IFNULL
+
+```sql
+SELECT name, surname, IFNULL(age, 0) AS age FROM users;
+```
+
+## Escritura de Base de Datos
+
+### INSERT
+
+```sql
+INSERT INTO users (user_id, name, surname) VALUES (5, 'María', 'López');
+
+INSERT INTO users (user_id, name, surname) VALUES (6, 'Chesco', 'Pérez');
+```
+
+### UPDATE
+
+```sql
+UPDATE users SET age = '21' WHERE user_id = 6;
+
+UPDATE users SET init_date = '2007-10-31' WHERE user_id = 6;
+
+UPDATE users SET age = 20, init_date = '2020-10-10' WHERE user_id = 5;
+```
+
+### DELETE
+
+```sql
+DELETE FROM users WHERE user_id = 5;
+```
+
+## Administración de bases de datos
+
+### CREATE
+
+```sql
+CREATE DATABASE test;
+```
+
+### DELETE
+
+```sql
+DROP DATABASE test;
+```
+
+## Administración de tablas
+
+### CREATE TABLE
+
+```sql
+CREATE DATABASE test;
+
+CREATE TABLE persons (
+	id INT,
+    name VARCHAR(100),
+    age INT,
+    email VARCHAR(50),
+    created DATE
+);
+
+-- NOT NULL
+CREATE TABLE persons_2 (
+	id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATE
+);
+
+-- UNIQUE
+CREATE TABLE persons_3 (
+	id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATETIME,
+    UNIQUE(id)
+);
+
+-- PRIMARY KEY
+CREATE TABLE persons_4 (
+	id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATETIME,
+    UNIQUE(id),
+    PRIMARY KEY(id)
+);
+
+-- CHECK
+CREATE TABLE persons_5 (
+	id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATETIME,
+    UNIQUE(id),
+    PRIMARY KEY(id),
+    CHECK(age>=18)
+);
+
+-- DEFAULT
+CREATE TABLE persons_6 (
+	id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATETIME DEFAULT CURRENT_TIMESTAMP(),
+    UNIQUE(id),
+    PRIMARY KEY(id),
+    CHECK(age>=18)
+);
+
+-- AUTO_INCREMENT
+CREATE TABLE persons_7 (
+	id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    age INT,
+    email VARCHAR(50),
+    created DATETIME DEFAULT CURRENT_TIMESTAMP(),
+    UNIQUE(id),
+    PRIMARY KEY(id),
+    CHECK(age>=18)
+);
+```
+
+### DROP TABLE
+
+```sql
+CREATE TABLE persons_8 (
+	name VARCHAR(100) NOT NULL DEFAULT 'SN'
+);
+
+DROP TABLE persons_8;
+```
+
+### ALTER TABLE
+
+```sql
+
 ```
 
 ## Herramientas gráficas
