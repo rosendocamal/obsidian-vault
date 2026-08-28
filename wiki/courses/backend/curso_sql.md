@@ -1,14 +1,14 @@
 # Curso de SQL
 
-| Inicio | Fin | Actualización |
-|-|-|-|
-| 2026-08-25 | 2026-08-26 | |
+| Fecha de Inicio | Fecha de Fin | Actualización |
+|-----------------|--------------|---------------|
+| 2026-08-25      | 2026-08-26   | 2026-08-28    |
 
 > [!NOTE]
 > Descargar [**MySQL Community**](https://dev.mysql.com/downloads/mysql/).
 
 > [!IMPORTANT]
-> Guía de instalación de [**MySQL**](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/) en Fedora.
+> Guía de instalación de [**MySQL**](https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/) para Fedora.
 
 ## Instalación de MySQL (en Fedora)
 
@@ -900,5 +900,6 @@ print_user("Juan'; UPDATE users SET age = 14312 WHERE user_id = 1 --")
 
 ## Recursos adicionales
 
-- [**SQLBolt**](https://sqlbolt.com/).
-- [**W3Schools**](https://www.w3schools.com/sql/).
+- [**SQLBolt**](https://sqlbolt.com/)
+- [**W3Schools**](https://www.w3schools.com/sql/)
+- [**PostgreSQL Documentation**](https://www.postgresql.org/docs/current/tutorial.html)

@@ -1,8 +1,10 @@
 # Curso Python Intermedio
 
-| Fecha de inicio | Fecha de finalización | Fecha de actualización |
-|-----------------|-----------------------|------------------------|
-| 2026-08-18      | 2026-08-20            | -                      |
+| Fecha de Inicio | Fecha de Fin | Actualización |
+|-----------------|--------------|---------------|
+| 2026-08-18      | 2026-08-20   | 2026-08-28    |
+
+`Python Intermedio` `Fechas` `List Comprehension` `Lambdas` `Higher Order Functions` `Closures` `Error Types` `Files` `RegEx` `Python Package Manager`
 
 ## Fechas
 
@@ -562,3 +564,17 @@ Para ver información de un paquete instalado. Ejemplo con `numpy`:
 ```bash
 pip show numpy
 ```
+
+## Recursos adicionales
+
+- [**Automate the Boring Stuff with Python**](https://automatetheboringstuff.com/)
+- [**pytest**](https://docs.pytest.org/en/stable/)
+- [**95 Python Projects for Beginners to Advanced**](https://www.dataquest.io/blog/python-projects-for-beginners/)
+- [**Leetcode**](https://leetcode.com/)
+- [**Neetcode**](https://neetcode.io/)
+- [**CSES Problem Set**](https://cses.fi/problemset/stats/1068/)
+- [**Project Euler**](https://projecteuler.net/)
+- [**Logic Building Problems**](https://www.geeksforgeeks.org/dsa/logic-building-problems/)
+- [**Visualgo**](https://visualgo.net/en/)
+- [**30 Days of Python**](https://github.com/Asabeneh/30-Days-Of-Python)
+- [**Retos de programación**](https://retosdeprogramacion.com/roadmap/)

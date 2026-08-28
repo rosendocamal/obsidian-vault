@@ -1,8 +1,8 @@
 # INSTALACIÓN DE VIRTUAL BOX EN FEDORA 43
 
-| Autor | Fecha | Actualización |
-|-------|-------|------ |
-| Rosendo Camal | 17/12/2025 | 12/01/2026 |
+| Autor         | Fecha      | Actualización |
+|---------------|------------|---------------|
+| Rosendo Camal | 2025-12-17 | 2026-08-28    |
 
 ## OBJETIVO
 
@@ -12,21 +12,21 @@ Instalar en Fedora 43 el programa de virtualización VirtualBox.
 
 Instalamos el kernel headers y otros paquetes esenciales.
 
-```
-$ sudo dnf install @development-tools
-$ sudo dnf install kernel-headers kernel-devel dkms
+```bash
+sudo dnf install @development-tools
+sudo dnf install kernel-headers kernel-devel dkms
 ```
 
 ## AÑADIR REPOSITORIO DE VIRTUALBOX
 
 Añadimos el repositorio oficial de VirtualBox a nuestro sistema.
 
-```
-$ sudo nvim /etc/yum.repos.d/virtualbox.repo
+```bash
+sudo nvim /etc/yum.repos.d/virtualbox.repo
 ```
 Y en el archivo anterior copiamos y guardamos lo siguiente:
 
-```
+```bash
 [virtualbox]
 name=Fedora $releasever - $basearch - VirtualBox
 baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/$releasever/$basearch
@@ -40,41 +40,42 @@ gpgkey=https://www.virtualbox.org/download/oracle_vbox_2016.asc
 
 Primero actualizamos el sistema y posteriormente instalamos VirtualBox.
 
-```
-$ sudo dnf update
-$ sudo dnf install VirtualBox-7.2 # O la versión específica actual en el repo
+```bash
+sudo dnf update
+sudo dnf install VirtualBox-7.2 # O la versión específica actual en el repo
 ```
 
 ## INSTALAR EXTENSIONES DE VIRTUALBOX
 
 Verificamos la versión instalada de VirtualBox.
 
-```
-$ vboxmanage -v | cut -d'r' -f1
+```bash
+vboxmanage -v | cut -d'r' -f1
 ```
 
 Con el comando anterior es posible saber que versión descargar y continuamos con ello.
 
-```
+```bash
 # 1. Obtenemos la versión instalada y la guardamos en una variable
-$ VBOX_VER=$(vboxmanage -v | cut -d'r' -f1)
+VBOX_VER=$(vboxmanage -v | cut -d'r' -f1)
 
 # 2. Descargamos la versión exacta
-$ wget [https://download.virtualbox.org/virtualbox/$VBOX_VER/Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack](https://download.virtualbox.org/virtualbox/$VBOX_VER/Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack)
+wget [https://download.virtualbox.org/virtualbox/$VBOX_VER/Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack](https://download.virtualbox.org/virtualbox/$VBOX_VER/Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack)
 
 # 3. Instalamos
-$ sudo vboxmanage extpack install Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack
+sudo vboxmanage extpack install Oracle_VirtualBox_Extension_Pack-$VBOX_VER.vbox-extpack
 ```
 
 ## AGREGAR USUARIO AL GRUPO *VBOXUSERS*
 
 Añadimos nuestro usuario actual al grupo **vboxusers** con el siguiente comando:
 
-```
-$ sudo usermod -a -G vboxusers $USER
+```bash
+sudo usermod -a -G vboxusers $USER
 ```
 
-> **IMPORTANTE:** Debemos cerrar sesión y volver a entrar (o reiniciar) para que este cambio tenga efecto.
+> [!IMPORTANT]
+> Debemos cerrar sesión y volver a entrar (o reiniciar) para que este cambio tenga efecto.
 
 ## NOTA SOBRE KERNEL Y MÓDULOS
 
@@ -82,8 +83,8 @@ $ sudo usermod -a -G vboxusers $USER
 
 Al tener el **Secure Boot desactivado**, si después de una actualización de Fedora el programa no abre, simplemente ejecutamos el siguiente comando para reconstruir los controladores :
 
-```
-$ sudo /sbin/vboxconfig
+```bash
+sudo /sbin/vboxconfig
 ```
 
 ### SECURE BOOT ACTIVADO (FIRMA DE MÓDULOS)
@@ -92,15 +93,15 @@ Si el Secure Boot está activado en la BIOS, el Kernel de Fedora bloqueará los 
 
 **1. Generar la llave de firma (MOK - Machine Owner Key):** Crea una carpeta para tus llaves y genera el certificado. Este paso solo se hace la primera vez.
 
-```
-$ sudo mkdir -p /root/module-signing
-$ sudo openssl req -new -x509 -newkey rsa:2048 -keyout /root/module-signing/MOK.priv -outform DER -out /root/module-signing/MOK.der -nodes -days 36500 -subj "/CN=VirtualBox/"
+```bash
+sudo mkdir -p /root/module-signing
+sudo openssl req -new -x509 -newkey rsa:2048 -keyout /root/module-signing/MOK.priv -outform DER -out /root/module-signing/MOK.der -nodes -days 36500 -subj "/CN=VirtualBox/"
 ```
 
 **2. Importar la llave a la BIOS:** Debes "decirle" a tu computadora que confíe en esta nueva llave. Te pedirá una contraseña: elígela y anótala, la necesitarás al reiniciar.
 
-```
-$ sudo mokutil --import /root/module-signing/MOK.der
+```bash
+sudo mokutil --import /root/module-signing/MOK.der
 ```
 
 **3. Reiniciar y Enrolar:** (Paso Crítico). Reinicia tu computadora. Antes de iniciar Fedora, aparecerá una pantalla azul/negra llamada Shim UEFI Key Management:
@@ -114,14 +115,14 @@ $ sudo mokutil --import /root/module-signing/MOK.der
 
 **4. Firmar los módulos de VirtualBox:** Ahora que el sistema confía en tu llave, firma los controladores instalados. Este comando debe ejecutarse después de instalar VirtualBox o tras una actualización mayor:
 
-```
-$ sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 /root/module-signing/MOK.priv /root/module-signing/MOK.der $(modinfo -n vboxdrv)
+```bash
+sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 /root/module-signing/MOK.priv /root/module-signing/MOK.der $(modinfo -n vboxdrv)
 ```
 
 **5. Cargar el módulo:** Finalmente, carga el controlador firmado:
 
-```
-$ sudo modprobe vboxdrv
+```bash
+sudo modprobe vboxdrv
 ```
 
 **¿Cuándo repetir esto?**
@@ -133,7 +134,12 @@ $ sudo modprobe vboxdrv
 
 Para desinstalar basta con ejecutar:
 
-```
+```bash
 # Opción genérica (borra cualquier versión de VB instalada)
-$ sudo dnf remove VirtualBox* -y
+sudo dnf remove VirtualBox* -y
 ```
+
+## RECURSOS ADICIONALES
+
+- [**Install VirtualBox7.2 on Fedora 44/43/42**](https://computingforgeeks.com/install-virtualbox-on-fedora/)
+- [**How to install VirtualBox on Fedora 44**](https://linuxcapable.com/how-to-install-virtualbox-on-fedora/)

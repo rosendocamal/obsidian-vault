@@ -1,62 +1,66 @@
-# Documentación de Git
+# Curso de Git y GitHub
 
-| Fecha de inicio | Fecha de finalización |
-|-----------------|-----------------------|
-| 2026-08-10      | 2026-08-16            |
+| Fecha de inicio | Fecha de Fin | Actualización |
+|-----------------|--------------|---------------|
+| 2026-08-10      | 2026-08-16   | 2026-08-28    |
 
-## Configuración global de Git
+`Git` `GitHub` `Basic Git` `Basic GitHub`
+
+## Básico de Git
+
+### Configuración global de Git
 
 Agregar nombre de usuario y correo electrónico:
 
-```
+```bash
 git config --global user.name "NAME"
 
 git config --global user.email "EMAIL"
 ```
 
-## Básico
+### Básico
 
 Para iniciar un proyecto con Git:
 
-```
+```bash
 git init
 ```
 
 Para agregar los cambios y archivos al historial de Git:
 
-```
+```bash
 git add FILE
 ```
 
 Para agregar los cambios realizados de varios archivos y sin discriminar ni seleccionar:
 
-```
+```bash
 git add .
 ```
 
 Para guardar los cambios (commit):
 
-```
+```bash
 git commit -m "MESSAGE"
 ```
 
 En cualquier momento podemos observar los cambios, y el estado del proyecto con:
 
-```
+```bash
 git status
 ```
 
-## Cambios del proyecto
+### Cambios del proyecto
 
 Te regresa al último cambio realizado del archivo indicado, es decir, no guarda los últimos cambios realizados y te regresa a la versión anterior.
 
-```
+```bash
 git checkout FILE
 ```
 
 Te permite ver los archivos con cambios realizados y que puedes regresar a su cambio anterior guardado.
 
-```
+```bash
 git reset
 ```
 
@@ -65,7 +69,7 @@ git reset
 
 Si queremos regresar a un punto concreto del commit y nos queremos contemplar los últimos cambios podemos usar:
 
-```
+```bash
 git reset --hard ID
 ```
 
@@ -73,199 +77,202 @@ Lo anterior cambia el `HEAD` a esa posición, si revisamos `log` no hallaremos l
 
 Para ver el historial completo usamos `reflog` y es el historial completo de todas las interacciones con git. Así lo anterior una vez ejecutado, no se pierde. Para regresar a pesar de usar `reset --hard`, volvemos a usar este mismo comando usando un ID posterior (el que queramos o necesitemos) al anterior utilizado.
 
-```
+```bash
 git reflog
 ```
 
-## Ramas
+### Ramas
 
 Cambiar nombre de rama:
 
-```
+```bash
 git brach -m NEW_NAME
 ```
 
 Para crear una rama:
 
-```
+```bash
 git brach NAME
 ```
 
 Para cambiar la rama donde estamos trabajando para trabajar en otra:
 
-``` 
+```bash
 git switch BRANCH
 ```
 
 > ¿Para qué sirve `git checkout -b NEW_RAMA`?
 > Mejor dicho ¿qué hace `checkout`?
 
-# Fusionar ramas
+### Fusionar ramas
 
 Para fusionar ramas (de donde estamos y otra), cambiamos BRANCH por la otra rama. La fusión solo se verá en la rama que estamos trabajando y se hará un commit:
 
-```
+```bash
 git merge BRANCH
 ```
 
 Si tenemos un conflicto en las ramas corregimos eso, agregamos con `add` los cambios y hacemos un `commit`. Con ello el conflicto del `merge` queda resuelto y finalizamos el `merge`.
 
-# Eliminar ramas
+### Eliminar ramas
 
 Para eliminar una rama se utiliza el siguiente comando:
 
-```
+```bash
 git branch -d BRANCH
 ```
 
-## Stash
+### Stash
 
 Para hacer una especie de `commit` sin ser que sea oficialmente un `commit` usamos, solo nosotros podemos ver eso y es útil para guardar lo que hemos hecho temporalmente:
 
-```
+```bash
 git stash
 ```
 
 Para ver el listado de los `commit` temporales podemos usar:
 
-```
+```bash
 git stash list
 ```
 
 Para utilizar el `stash` en caso de regresar a ello:
 
-```
+```bash
 git stash pop
 ```
 
 Para eliminar un `stash` del historial de stash:
 
-```
+```bash
 git stash drop
 ```
 
-## Historial de commit
+### Historial de commit
 
 Para ver el historial de commits:
 
-```
+```bash
 git log
 ```
 
 Para ver de forma visual la evolución del historial:
 
-```
+```bash
 git log --graph
 ```
 
 Para ver el historial de forma simple y rápida (se ve el hash y el mensaje del commit):
 
-```
+```bash
 git log --graph --pretty=oneline
 ```
 
-```
+```bash
 git log --graph --decorate --all --oneline
 ```
 
 Para moverse dentro del historial podemos utilizar el id de un commit para regresar a ese estado con:
 
-```
+```bash
 git checkout ID
 ```
 
 Con lo anterior nos estaremos ubicando en ese commit, o cambio, de la misma forma podremos regresar a la parte final de la rama (el estado por defecto en cualquier proyecto, que es el final donde estamos trabajando) usando el mismo comando anterior cambiando el ID por el correspondiente. Los IDs se pueden obtener con `git log`.
 
-## Alias
+### Alias
 
 Para crear un alias, una forma de flojera sofisticada no apto para principiantes para evitar repetir comandos extensos.
 
 Ejemplo: Crear un alias con nombre de `tree` para ejecutar `git log --graph --decorate --all --oneline`:
 
-```
+```bash
 git config global alias.tree "log --graph --decorate --all --oneline"
 ```
 
 Aquí se guarda el alias de forma global, es decir, en todos nuestros repositorios locales de Git que tenemos. A partir de ahora,
 ya se puede ejecutar el comando con `git tree` en lugar de escribir toda la extensión del comando.
 
-## Comparar cambios
+### Comparar cambios
 
 Para comparar cambios (para ver qué hemos cambiado) sin necesidad de guardar el código porque aún no queremos (o no podemos, o no debemos):
 
-```
+```bash
 git diff
 ```
 
-## Etiquetas
+### Etiquetas
 
 Para marcar algunos commits que consideremos importante y no requerir usar los IDs (por su extensión y díficil referencia) podemos emplear etiquetas en lugar de hacer referencia con su ID. Los tags lo podemos ver en `log`. La nomenclatura usada para escribir las etiquetas es que deben ser en minúsculas y sin espacios (usando underscore). Para añadir una etiqueta en donde estamos trabando en Git es:
 
-```
+```bash
 git tag TAG
 ```
 
 Para listar los tags:
 
-``` 
+```bash
 git tag
 ```
 
 También puedes utilizar los tags para cambiar el `HEAD` usando `checkout`:
 
-```
+```bash
 git checkout tag/TAG
 ```
 
-## Eliminar commit
+### Eliminar commit
 
 Investigar sobre `revert` cuando más adelante tengamos experiencia ya que es muy peligroso y drástico.
 
 ---
 
-# Documentación de GitHub
+## Básico de Git con GitHub
 
-## Crear llave SSH para autenticación con GitHub (para Linux, distro Fedora)
+### Crear llave SSH para autenticación con GitHub
+
+> [!IMPORTANT]
+> Configuración para Linux, distro Fedora
 
 Primero se crea la llave SSH:
 
-```
+```bash
 ssh-keygen -t ed25519 -C "correo@dominio.com"
 ```
 
 Después se agrega la llave al ssh-agent:
 
-```
+```bash
 eval "$(ssh-agent -s)"
 ```
 
-```
+```bash
 ssh-add ~/.ssh/id_ed25519
 ```
 
-## Subir la llave pública a GitHub (web browser, Linux)
+### Subir la llave pública a GitHub (web browser, Linux)
 
 Copias la llave pública y lo pegas donde corresponda en la sección de la web de GitHub:
 
-```
+```bash
 cat ~/.ssh/id_ed25519.pub | wl-copy
 ```
 
-## Comprobación conexión con el servidor de GitHub
+### Comprobación conexión con el servidor de GitHub
 
 Utiliza el comando:
 
-```
+```bash
 ssh -T git@github.com
 ```
 
 > En ocasiones, tienes que ejecutar el comando una vez más dado que el primero pudiera dar error.
 
-## Repositorios en la nube (servidor de GitHub)
+### Repositorios en la nube (servidor de GitHub)
 
 Si se ha creado un nuevo repositorio:
 
-```
+```bash
 echo "# new-repo" >> README.md
 git init
 git add README.md
@@ -277,13 +284,13 @@ git push -u origin main
 
 O para enviar archivos de un repositorio ya creado:
 
-```
+```bash
 git remote add origin git@github.com:user/new-repo.git
 git branch -M main
 git push -u origin main
 ```
 
-## Subir archivos y actualizaciones de proyecto a GitHub
+### Subir archivos y actualizaciones de proyecto a GitHub
 
 Para subir archivos se sigue el orden de los comandos `add`, `commit` y `push`.
 
@@ -293,7 +300,7 @@ Si hay conflictos al hacer `push` se procede de la siguiente manera:
 
 El siguiente comando se descarga de GitHub el historial de cambios, no descargo los archivos:
 
-```
+```bash
 git fetch
 ```
 
@@ -301,35 +308,35 @@ Luego procedo con `log` y el alias `tree` (que hemos creado anteriormente) para 
 
 Procedemos con `pull`:
 
-```
+```bash
 git pull origin main
 ```
 
-```
+```bash
 git merge origin main
 ```
 
-```
+```bash
 git config pull.rebase false # Hay otras configuraciones, este hace un merge
 ```
 
-```
+```bash
 git pull origin main
 ```
 
-```
+```bash
 git push
 ```
 
-## Clonar repositorios
+### Clonar repositorios
 
 Para clonar un repositorio necesitamos la url para SSH del repositorio:
 
-```
+```bash
 git clone git@github.com:user/new-repo.git
 ```
 
-## Git Fork, sincronizaión, pull request, issues.
+### Git Fork, sincronizaión, pull request, issues.
 
 En la web de GitHub está la opción del `Fork` en el repositorio que queremos modificar y que no tengamos acceso.
 
@@ -339,48 +346,50 @@ En ese repositorio `fork` en nuestro GitHub tenemos las opciones de `Sync repo` 
 
 Para sincronizar nuestro repositorio con el repositorio oficial, seleccionamos `Sync repo` y actualizamos.
 
-## GitHub Markdown
+### GitHub Markdown
 
 ## Herramientas gráficas para Git y GitHub
 
-* `GitHub Desktop`
-* `GitKraken`
-* `Source Tree`
-* `Git Fork`
+* **GitHub Desktop**
+* **GitKraken**
+* **Source Tree**
+* **Git Fork**
 
 ## Git & GitHub Workflows
 
-* `git-flow`
+* **git-flow**
 
 ## cherry-pick & rebase (comandos delicados y avanzados)
 
 **Cherry-pick**: Consiste (en términos sencillos y vagos) en traer un `commit` concreto a una rama que queramos.
 
-```
+```bash
 git cherry-pick ID
 ```
 
 Para avanzar con el cherry-pick:
 
-```
+```bash
 git cherry-pick --continue
 ```
 
 Para parar el proceso si nos equivocamos o algo sale mal:
 
-```
+```bash
 git cherry-pick --abort
 ```
 
 **Rebase**: Sirve para adelantar los commits o la rama arriba de nuestro `HEAD`, como si fuera lo último que se ha hecho (sin importar lo que estamos trabajando) y encima sin realizar alguna especie de `merge`. Es como poner los commits seleccionados a la parte final, como adelanto de nuestra posición del proyecto.
 
-```
+```bash
 git rebase -i
 ```
-```
+
+```bash
 git rebase --continue
 ```
-```
+
+```bash
 git rebase --abort
 ```
 
@@ -391,3 +400,16 @@ Hay documentación original de GitHub Pages.
 ## GitHub Actions
 
 Hay documentación original de GitHub Actions.
+
+## Referencias adicionales
+
+* [Learn Git Branching](https://learngitbranching.js.org/)
+* [The Official GitHub Training Manual](https://githubtraining.github.io/training-manual/#/)
+* [Hoja de referenciua para GitHub Git](https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf)
+* [GitHub Docs](https://docs.github.com/en/get-started)
+* [Authentication documentation](https://docs.github.com/en/authentication)
+* [Git branch strategy](https://gitkraken.com/learn/git/best-practices/git-branch-strategy)
+* [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+* [GitHub Pages documentation](https://docs.github.com/en/pages)
+* [GitHub Actions](https://github.com/features/actions)
+* [Learn GitHub within GitHub](https://learn.github.com/skills)

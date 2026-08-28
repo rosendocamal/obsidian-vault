@@ -2,7 +2,9 @@
 
 | Fecha de inicio | Fecha de finalización | Fecha de actualización |
 |-----------------|-----------------------|------------------------|
-| 2026-08-24      | 2026-08-24            | 2026-08-24             |
+| 2026-08-24      | 2026-08-24            | 2026-08-28             |
+
+`Backend` `Python` `FastAPI` `MongoDB` `OAuth2` `JWT` `HTTP`
 
 ## Primeros pasos
 
@@ -30,13 +32,13 @@ Después abrimos el servidor local:
 fastapi dev
 ```
 
-## Type Hints
-## Routers
-## Recursos estáticos
-## Autorización OAuth2
-## OAuth2 JWT
+### Otros conceptos a revisar
 
-> [Documentación JWT](https://www.jwt.io/)
+- **Routers**
+- **Recursos estáticos**
+- **Autorización OAuth2**
+
+## OAuth2 JWT
 
 Para usar `JWT` requerimos instalar `python-jose`:
 
@@ -57,9 +59,6 @@ openssl rand -hex 32
 
 ## MongoDB
 
-> [Documentación MongoDB](https://www.mongodb.com/)
-> [Documentación MongoDB Atlas](https://www.mongodb.com/products/platform)
-
 Instalación de **MongoDB Community Edition** en Linux Fedora:
 
 ```bash
@@ -67,7 +66,7 @@ touch /etc/yum.repos.d/mongodb-org-8.3.repo
 ```
 
 Y agregar el siguiente contenido en el archivo recién creado:
-```
+```bash
 [mongodb-org-8.3]
 name=MongoDB Repository
 baseurl=https://repo.mongodb.org/yum/redhat/9/mongodb-org/8.3/x86_64/
@@ -104,7 +103,7 @@ sudo systemctl stop mongod
 
 Para reinicar el servicio de MongoDB:
 
-```
+```bash
 sudo systemctl restart mongod
 ```
 
@@ -119,14 +118,6 @@ mongosh
 Para ingresar a nuestra documentación automática podemos utilizar `http://127.0.0.1/docs` o `http://127.0.01/redoc`.
 
 Para el backend podemos emplear `Thunder Client` como extensión en `Visual Studio Code` o [`Postman`](https://www.postman.com/downloads/).
-
-> Aprender **métodos HTTP** principales.
-
-> Analogía: los 4 principales son similares al concepto de **CRUD**.
-
-> [_HTTP response status code_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
-
-> [Documentación **FastAPI**](https://fastapi.tiangolo.com/)
 
 ### Archivos
 
@@ -145,7 +136,7 @@ Estructura de los archivos realizados:
         └── img.webp
 ```
 
-`main.py`:
+Contenido del fichero`main.py`:
 
 ```python
 from fastapi import FastAPI
@@ -172,7 +163,7 @@ async def url():
     return { "url_curso":"https://mouredev.com/python" }
 ```
 
-`basic_auth_users.py`:
+El archivo `basic_auth_users.py` tiene el siguiente contenido:
 ```python
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
@@ -250,7 +241,7 @@ async def me(user: User = Depends(current_user)):
     return user 
 ```
 
-`jwt_auth_users.py`:
+El fichero `jwt_auth_users.py` contiene:
 
 ```python
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -353,7 +344,7 @@ async def me(user: User = Depends(current_user)):
     return user
 ```
 
-`products.py`:
+El archivo `products.py` tiene el siguiente contenido:
 
 ```python
 from fastapi import APIRouter
@@ -373,7 +364,7 @@ async def products(id: int):
     return products_list[id]
 ```
 
-`users.py`:
+El archivo `users.py` contiene:
 
 ```python
 from fastapi import APIRouter, HTTPException
@@ -457,3 +448,11 @@ def search_user(id: int):
     except:
         return {"error": "No se ha encontrado el usuario."}
 ```
+
+## Recursos adicionales
+
+* [FastAPI](https://fastapi.tiangolo.com/)
+* [Documentación JWT](https://www.jwt.io/)
+* [Documentación MongoDB](https://www.mongodb.com/)
+* [Documentación MongoDB Atlas](https://www.mongodb.com/products/platform)
+* [HTTP response status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)

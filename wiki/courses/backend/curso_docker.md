@@ -1,8 +1,10 @@
 # Curso de Docker
 
-| Inicio | Fin | Actualización |
-|-|-|-|
-| 2026-08-24 | 2026-08-25 | |
+| Fecha de Inicio | Fecha de Fin | Actualización |
+|-----------------|--------------|---------------|
+| 2026-08-24      | 2026-08-25   | 2026-08-28    |
+
+`Docker` `Contenedor` `Imagen` `Docker Compose` `Variables de entorno` `Virtualización`
 
 ## Conceptos
 
@@ -16,14 +18,9 @@
     - Virtualización completa
     - Diferencias de Docker y Virtualización
 * Docker Desktop
-    - Docker Compose
+* Docker Compose
 * Variables de entorno
 * _Port mapping_
-
-## Instalación de Docker Desktop
-
-> [!IMPORTANT]
-> Guía (**dockerdocs**) para instalar [**Docker Desktop**](https://docs.docker.com/desktop/setup/install/linux/fedora/) en Fedora.
 
 ## Uso de Docker
 
@@ -408,7 +405,7 @@ Ahora pasamos al entorno de desarrollo y el producción, ahora para manejar de f
 
 `Dockerfile.dev`:
 
-```
+```bash
 FROM node:18
 
 RUN npm i -g nodemon
@@ -459,7 +456,10 @@ docker compose -f docker-compose-dev.yml up
 ```
 
 De esta manera tendremos dos ambientes: el de producción y el de desarrollo.
+
 ## Recursos adicionales
 
-- Sitio oficial de [**Docker**](https://www.docker.com/).
-- Repositorios [**Docker Hub**](https://hub.docker.com/).
+- [**Docker**](https://www.docker.com/)
+- [**Docker Docs**](https://docs.docker.com/get-started/)
+- [**Docker Hub**](https://hub.docker.com/)
+- [**Docker Desktop** Fedora](https://docs.docker.com/desktop/setup/install/linux/fedora/)
